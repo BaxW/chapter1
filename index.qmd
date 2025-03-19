@@ -191,8 +191,8 @@ content of assembled contigs to the "PlusPFP" database of known
 taxon-specific k-mers representing archaea, bacteria, viral, human,
 protozoa, fungi and plant taxa [@lu2022]. We then used a custom bioawk
 script to remove any assembled contig that Kraken2 assigned to a
-taxonomic unit other than \*Populus\*, leaving only unassigned or
-\*Populus\*- assigned contigs in each assembly. We assessed the accuracy
+taxonomic unit other than *Populus*, leaving only unassigned or
+*Populus*- assigned contigs in each assembly. We assessed the accuracy
 and completeness of the decontaminated assemblies using QUAST and BUSCO
 [@gurevich2013quast; @simao2015busco]. To further assess the contiguity
 and quality of these assemblies, we used minimap2 and BWA to map the
@@ -401,9 +401,9 @@ asm_dat <- read_csv("cactus_assmebly_stats_master.csv") %>%
 # Figures
 
 ::: {#fig-1 layout-ncol="2"}
-![](figs/msamp.jpg)
+![](images/msamp.jpg)
 
-![](figs/msamp_sub.jpg)
+![](images/msamp_sub.jpg)
 
 (Left): sampling locations for 575 individuals used in this study, color
 indicates ancestry based in ADMIXTURE analysis (Right): A subset of 16
@@ -411,21 +411,21 @@ individuals used for whole genome assembly
 :::
 
 ::: {#fig-2}
-![](figs/pg_growth.jpg)
+![](images/pg_growth.jpg)
 
 Pan-genome growth curve visualizes the change in core and shell genome
 size as samples are added
 :::
 
 ::: {#fig-3}
-![](figs/pg_content.jpg)
+![](images/pg_content.jpg)
 
 The relative length of the core, shell and singleton portions of the
 pan-genome for each sample represented
 :::
 
 ::: {#fig-4}
-![](figs/pav_pca.jpg)
+![](images/pav_pca.jpg)
 
 The first two principal components of a PCA on presence/absence
 variation in the pan-genome. Color indicates ancestry based in ADMIXTURE
@@ -433,17 +433,19 @@ analysis.
 :::
 
 ::: {#fig-5}
-![](figs/sv_density.jpg) The distribution of SV \> 20bp in length across
-the genome
+![](images/sv_density.jpg) 
+
+The distribution of SV larger than 20bp in length across the genome
 :::
 
 ::: {#fig-6}
-![](figs/sv_freq.jpg) The frequency distribution of the non-reference
-allele for SV of different size classes
+![](images/sv_freq.jpg) 
+
+The frequency distribution of the non-referenceallele for SV of different size classes
 :::
 
 ::: {#fig-7}
-![](figs/sv_pc1_pc2.jpg)
+![](images/sv_pc1_pc2.jpg)
 
 The first two principal components of a PCA of PAV genotyped from short
 read alignments to the pan-genome graph. Color indicates ancestry based
@@ -452,7 +454,7 @@ transects the individual was sampled from.
 :::
 
 ::: {#fig-8}
-![](figs/pc1_loading.jpg)
+![](images/pc1_loading.jpg)
 
 The loading of each allele for each SV on the first principle component
 of a PCA on PAV genotyped from short read alignments to the pan-genome
