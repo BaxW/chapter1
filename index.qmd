@@ -3,8 +3,7 @@ title: Adaptive Introgression Shapes the Pan-genome of Populus Hybrid Zones
 author:
   - name: Baxter Worthing
     email: baxter.worthing@uvm.edu
-    affiliations:
-      - The University of Vermont
+    affiliation: The University of Vermont
 abstract: |
   Poplar trees...
 bibliography: references.bib
@@ -181,7 +180,7 @@ and sequencing on XXX flowcell (two runs) and XXX flowcell (one run)
 ### Genome assembly
 
 Of the 40 individuals sequenced with HiFi long reads, we selected 16 for
-whole genome assembly (Figure1b). These samples ranged from 20 to 35x
+whole genome assembly [@fig-1]. These samples ranged from 20 to 35x
 long read coverage. We performed de-novo genome assembly of the HiFi
 reads for these samples with HiCanu [@nurk2020hicanu]. We set HiCanu
 parameters as follows: gSize="400m", lc="5", lcer="0.055", ovrlp="350",
@@ -206,7 +205,7 @@ belonging to the same parental haplotype is a key step in genome
 assembly for hybrid individuals, as divergent haplotypes likely contain
 important genetic information. We used mininmap2 to map reads back to
 assembled contigs and to map assembled contigs to themselves. We then
-used the purge_haplotigs pipeline (Roach et al., 2018) to split diploid
+used the purge haplotigs pipeline (Roach et al., 2018) to split diploid
 assemblies into two assembled haploytpes for each individual. We used
 RagTag (Alonge et al. 2022) to connect decontaminated, phased contigs
 into pseudo-chromosomal scaffolds, guided by alignments of assembled
@@ -228,7 +227,7 @@ sequence divergence. We constructed a pan-genome graph from an all-by
 all alignment of the 24 assembled haplotypes. Any contigs shorter than
 100kb were dropped before alignment. We used wfmash (Guarracino et al.,
 2021) to perform all-by-all alignments between assembled chromosomes,
-and seqwish (Garrison & Guarracino, 2022) to project alignments into a
+and seqwish (Garrison and Guarracino, 2022) to project alignments into a
 graph pan-genome assembly. Pan-genome graphs constructed this way can
 have highly complex topography, which may hinder downstream applications
 such a sequence alignment. To combat this issue, we used the program
@@ -290,7 +289,7 @@ components.
 To find SV potentially involved in introgression, we employed custom
 scripts to identify ancestry blocks along the chromosomes of all 335
 admixed individuals in this study. An individual was considered admixed
-if its k=2 ADMIXTURE score indicated at least 5% admixture genome-wide.
+if its k=2 ADMIXTURE score indicated at least 5 percent admixture genome-wide.
 We used Bedtools [@quinlan2010bedtools] to find SV that overlapped
 ancestry blocks in each admixed individual. We then scored each SV
 allele based on its prevalence in ancestry blocks that contrasted the
@@ -319,10 +318,10 @@ The minigraph-cactus pangenome graph contained a total of 102,907,131
 nodes comprising 1.2 Gbp of sequence. Of this, 243 Mbp was present
 across all individuals (core genome), while 423Mbp was present in some
 but not all individuals (shell genome). The remaining 537 Mbp
-represented singleton sequence. @fig-2 shows how the size of the
+represented singleton sequence. [@fig-2] shows how the size of the
 sequence classes changes as individuals are added to the pan-genome.
-@fig-3 shows the proportions of core, shell and singleton sequence
-within each sample. @fig-4 shows each genome in the pan-genome graph
+[@fig-3] shows the proportions of core, shell and singleton sequence
+within each sample. [@fig-4] shows each genome in the pan-genome graph
 plotted on the first two principal components of a PCA on PAV of
 reference sequence.
 
@@ -341,15 +340,15 @@ D-mannose binding lectin, Glycosyl hydrolases and absistic acid (ABA)
 induced proteins.
 
 The cactus pan-genome graph contained 1,773,427 SV greater than 20bp in
-length. @fig-5 shows the distribution of these variants across the
+length. [@fig-5] shows the distribution of these variants across the
 genome. The distribution of frequencies of the non-reference allele for
-these SV is shown in @fig-6.
+these SV is shown in [@fig-6].
 
 The first two principal components of a PCA on PAV genotyped from short
-read alignments to the pan-genome graph are shown in @fig-7. The loading
+read alignments to the pan-genome graph are shown in [@fig-7]. The loading
 of each allele for each SV on the first principal component of a PCA on
 PAV genotyped from short read alignments to the pan-genome graph is
-shown in @fig-8. The SV that were outliers on PC1 overlapped 1362
+shown in [@fig-8]. The SV that were outliers on PC1 overlapped 1362
 annotated genes. These genes were significantly enriched for protein
 families involved in development and growth (K-Box proteins, KNOX
 proteins), cold tolerance (DEAD/DEAH box helicases), and phenology (SRF
@@ -364,45 +363,13 @@ individuals.
 
 ### Tables
 
-```{r, echo=FALSE}
-library(gt)
-library(tidyverse)
+![](images/table.png)
 
-asm_dat <- read_csv("cactus_assmebly_stats_master.csv") %>%
-  select(-c(flagged, craq_r_aqi,craq_s_aqi))%>%
-    rename(`Coverage Rate`= craq_cov_rate,
-           `Low Confidence Rate`= craq_low_conf_rate,
-           `Mean Assembly Quality Index`= craq_mean_aqi,
-           `Number of Scaffolds`= n_scaffolds)
-  
-
-# make into clean table 
-
-  gt(asm_dat) %>%
-  tab_header(
-    title = "Assembly Statistics",
-    subtitle = "Metrics of size, quality and completeness for the assmeblies making up the pan-genome"
-  ) %>%
-  tab_spanner(
-    label = "Assembly size",
-    columns = c(length,`Number of Scaffolds`,N50,N50_n)
-  ) %>%
-  tab_spanner(
-    label = "Assembly size completeness",
-    columns = c(gaps,N_count,`Coverage Rate`, busco_complete,busco_duplicated,busco_fragmented, `Coverage Rate`)
-    ) %>%
-  tab_spanner(
-    label = "Assembly quality",
-    columns = c(`Low Confidence Rate`, `Mean Assembly Quality Index`)
-  )
- 
-```
 
 # Figures
 
 ::: {#fig-1 layout-ncol="2"}
 ![](images/msamp.jpg)
-
 ![](images/msamp_sub.jpg)
 
 (Left): sampling locations for 575 individuals used in this study, color
@@ -460,4 +427,10 @@ The loading of each allele for each SV on the first principle component
 of a PCA on PAV genotyped from short read alignments to the pan-genome
 graph. Red points are indicate P. trichocarpa reference alleles, blue
 points indicate non-reference alleles.
+:::
+
+## References {.unnumbered}
+
+:::{#refs}
+
 :::
