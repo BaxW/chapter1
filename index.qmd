@@ -364,7 +364,7 @@ individuals.
 
 ### Tables
 
-![](images/table.png)
+![](images/table.jpg)
 
 
 # Figures
