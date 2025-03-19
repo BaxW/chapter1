@@ -1,111 +1,461 @@
 ---
-title: La Palma Earthquakes!
+title: Adaptive Introgression Shapes the Pan-genome of Populus Hybrid Zones 
 author:
-  - name: Steve Purves
-    orcid: 0000-0002-0760-5497
-    corresponding: true
-    email: steve@curvenote.com
-    roles:
-      - Investigation
-      - Project administration
-      - Software
-      - Visualization
+  - name: Baxter Worthing
+    email: baxter.worthing@uvm.edu
     affiliations:
-      - Curvenote
-  - name: Rowan Cockett
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - Curvenote
-keywords:
-  - La Palma
-  - Earthquakes
+      - The University of Vermont
 abstract: |
-  In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). ...
-plain-language-summary: |
-  Earthquake data for the island of La Palma from the September 2021 eruption is found ...
-key-points:
-  - A web scraping script was developed to pull data from the Instituto Geogràphico Nacional into a machine-readable form for analysis
-  - Earthquake events on La Palma are consistent with the presence of both mantle and crustal reservoirs.
-date: last-modified
+  Poplar trees...
 bibliography: references.bib
-citation:
-  container-title: Earth and Space Science
 number-sections: true
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 ## Introduction
 
-```{r}
-eruptions <- c(1492, 1585, 1646, 1677, 1712, 1949, 1971, 2021)
-n_eruptions <- length(eruptions)
+Hybridization between distinct species can lead to the exchange of
+genetic variation across species boundaries, a process known as
+introgression. Introgression is common among inter-fertile species of
+forest trees, and in many cases, is hypothesized to be an adaptive
+process, through which genetic variation related to locally-adaptive
+phenotypes is passed from one species to the other [@suarez2018adaptive;
+@leroy2020adaptive; @rendon2021adaptive; @hamilton2016adaptive] Support
+for this hypothesis requires a clearer understanding of the nature of
+genetic variation that is exchanged between species, and the degree to
+which this variation is involved in adaptive processes in natural
+populations. Characterization of the genetic variation involved in
+adaptive introgression would shed light on the evolutionary forces that
+influence the content of admixed genomes and help reveal the loci that
+underlie both the adaptive traits and genetic incompatibilities that
+shape species boundaries.
+
+The majority of past research on adaptive introgression has focused on
+single nucleotide polymorphisms (SNPs) and small indels, but structural
+variation (SV) is also likely to play a role in adaptive introgression.
+SV, which includes deletions, duplications, inversions, and
+translocations of DNA segments, can have a significant impact on gene
+expression, gene function, and ultimately, adaptive phenotypic
+variation. For this reason, SV is known to be a major source of genetic
+variation in many species, and has been implicated in the evolution of
+adaptive traits in a variety of taxa [@hamala2021genomic;
+@songsomboon2021genomic; @li2024pan; @li2023pig]. As the notion that SV
+is involved in adaptive evolution gains support, it is only logical to
+ask is how SV is involved in adaptive introgression. Recent research
+suggests that SV may play an important role in both adaptive
+introgression [@almarri2020population; @xia2023structural;
+@zhang2021pan] and in the maintenance of species boundaries
+[@zhang2021important] in natural systems. Introgression between crop
+varietals and wild relatives has been a key factor in the breeding
+history of many crops, and recent work shows that SV are often the
+casual variants involved in this process [@gao2019tomato;
+@kou2020evolutionary; @cheng2019frequent; Sun et al., 2020; Qiao et al.,
+2021; Zanini et al., 2021 ]. While the significant effect of
+introgressed SV on economically important crop traits is well
+recognized, far less in known about the relationship between
+introgression, SV and ecologically important traits in natural hybrid
+zones.
+
+The study of SV in natural hybrid zones is challenging, as it requires
+the ability to accurately genotype SV in a large number of admixed
+individuals. The majority of past research on SV in natural populations
+has relied on reference genomes that represent only one species, which
+can lead to reference bias. Reference bias occurs when the genomes of re
+sequenced individuals contain regions that are highly diverged from the
+reference genome , causing reads originating from these regions to align
+incorrectly, or not align at all to the reference genome. This can lead
+to misinterpretation or under-representation of variation resulting from
+admixture [@secomandi2025pangenome]. Reference bias is particularly
+problematic when studying SV, as large insertions and deletions may be
+longer than sequencing reads, making variation in their presence and
+absence (PAV) challenging to detect. Furthermore, SV is often
+species-specific and, because admixed individuals represent a mosaic of
+genetic variation from two or more species, the presence of reference
+bias can obscure the effect that the presence (or absence) of genetic
+variation has on traits, and can hinder the identification of SV that is
+involved in introgression.
+
+Recently, an increasing number of studies have relied on pan-genome
+assembly to overcome reference bias and to accurately genotype SV
+[@secomandi2025pangenome; @gao2019tomato; @li2023pig; @li2024pan;
+@songsomboon2021genomic]. A pan-genome assembly is a non-redundant
+collection of sequences originating from multiple individuals. This
+genetic information can be represented as "nodes" in a pan-genome graph,
+while the linear sequence of each input genome is stored as a "path"
+connecting a series of nodes. In a pan-genome graph, each node describes
+the alignment between at least two sequences, given an expected level of
+sequence divergence. Pan-genome graphs can capture complex variation
+that is not present in a single reference genome, and can provide a more
+accurate representation of the genetic variation present in admixed
+individuals. Pan-genome assembly has been used to identify and genotype
+SV related to ecologically and economically important traits in a
+variety of taxa, and has been shown to be an effective tool for studying
+the adaptive evolution in natural populations [@secomandi2025pangenome;
+@fang2024fitness]. However, to our knowledge, no studies have used
+pan-genome assembly to examine introgression in the context of forest
+tree hybrid zones, which are often dynamic and geographically broad.
+Pan-genome assembly could help overcome the challenges of studying SV in
+admixed tree genotypes, and could provide new insights into the role of
+SV in adaptive introgression in natural populations of forest trees.
+
+*Populus balsamifera* and *Populus trichocarpa* are two species of
+forest tree that readily interbreed in nature, and early and advanced
+generation hybrids have been described in hybrid zones located where
+their ranges overlap (Geraldes et al., 2014; Suarez-Gonzalez et
+al.,2016; 2018; Chhatre et al. 2019). It has previously been
+hypothesized that hybridization between these two species contributes to
+an adaptive process, through which genetic variation related to
+locally-adaptive phenotypes is passed from one species to the other
+through adaptive introgression (Suarez-Gonzalez et al., 2016;
+Suarez-Gonzalez et al., 2018). However, studies on inter-specific
+crosses in *Populus* have made it clear that introgression is often
+biased toward particular regions of the genome, particular *Populus*
+species, or specific environments (Lexer et al., 2005; Thompson et al.,
+2010; Meirmans et al., 2017). Therefore, the adaptiveness of
+introgression between *P. balsamifera* and *P. trichocarpa* is dependent
+on incompatibilities between the genomic variants involved as well as
+environmental context, two factors which warrant further investigation.
+The environmental context of adaptive introgression may be of particular
+importance in the case of *P. balsamifera* and *P. trichocarpa*. *P.
+balsamifera* is more commonly found in colder, continental climates
+while *P. trichocarpa* is more often associated with milder, coastal
+climates with longer growing seasons (Geraldes et al., 2014;
+Suarez-Gonzalez et al., 2018). Considering hybrid zones between these
+species often fall along the boundaries of their ranges, it seems
+possible that adaptive introgression helps hybrid individuals persist in
+environments that are outside of the optimum for either parental
+species. Suarez-Gonzalez et al. (2018) showed support for this
+hypothesis, finding that introgressed regions in the genomes of hybrids
+from these zones harbored signs of selection and variation associated
+with adaptive traits, including phenology. However, the specific
+adaptive variants within these genomic regions, and the nature of their
+effects on fitness remain, for the most part, undiscovered.
+
+Here, we take advantage of recent advances in pan-genome assembly
+methods to produce a pan-genomic reference, comprising 24 diverse
+haplotypes from *P. balsamifera*, *P. trichocarpa* and their hybrids,
+facilitating unbiased analysis of the sequence variation that is
+segregating within natural *Populus* hybrid zones. Using this new pan
+genomic assembly, we genotype structural variation across 575
+individuals sampled from within and outside of natural *P. balsamifera*
+and *P. trichocarpa* hybrid zones. We assess the true extent of genomic
+diversity present in these species and their hybrids, identifying
+genomic variation that is not present in the *P. trichocarpa* reference
+genome. Furthermore, we describe structural variation involved both in
+introgression and in genomic divergence between the two species. We shed
+light on the role that introgression may play in shaping the pan-genome
+of these species, and the degree to which tree genomes are porous to the
+inter-specific exchange of structural variant alleles.
+
+## Methods
+
+### Sample collection and whole genome sequencing
+
+In January 2020, we collected dormant branch cuttings from 546 poplar
+trees along 7 distinct latitudinal transects spanning natural contact
+zones between Populus trichocarpa and Populus balsamifera @fig-1. Short
+read whole genome sequencing and subsequent bioinformatic analyses were
+performed as described in Bolte et al. (2024). Briefly, Genomic DNA
+libraries for all sampled individuals were constructed at the Duke
+University Center for Genomic and Computational Biology and sequenced
+using an Illumina NovaSeq 6000 instrument with an S4 flow cell in
+2 × 150 bp format with 64 samples per lane (Illumina Inc., San Diego,
+USA). De-indexing, QC, trimming adapter sequences, and sequence
+pre-processing were completed by the sequencing facility. In addition to
+short read sequencing, we also sequenced a subset of 40 sampled
+individuals with PacBio HiFi long reads. We harvested tissue from
+newly-expanded leaves grown under low light conditions to use for high
+molecular weight DNA extraction. After confirming extraction quality
+through gel electrophoresis and bioanalysis, we submitted HMW DNA to the
+University of Maryland Center for Integrative Biosciences Genomics Core
+Facility for library preparation and sequencing on the the PacBio Sequel
+system with two samples per SMRT flow cell. We sequenced one *P.
+balsamifera* sample (939) for an additional run on a full SMRT cell. We
+also sequenced this individual with Oxford Nanopore Technology (ONT)
+platform. We submitted high molecular weight DNA to the Vermont
+Integrative Genomics Resource Sequencing Center for library preparation
+and sequencing on XXX flowcell (two runs) and XXX flowcell (one run)
+
+### Genome assembly
+
+Of the 40 individuals sequenced with HiFi long reads, we selected 16 for
+whole genome assembly (Figure1b). These samples ranged from 20 to 35x
+long read coverage. We performed de-novo genome assembly of the HiFi
+reads for these samples with HiCanu [@nurk2020hicanu]. We set HiCanu
+parameters as follows: gSize="400m", lc="5", lcer="0.055", ovrlp="350",
+mincov="9". To detect potential contaminants in the raw assemblies
+produced by HiCanu, we used the program Kraken2 to compare the k-mer
+content of assembled contigs to the "PlusPFP" database of known
+taxon-specific k-mers representing archaea, bacteria, viral, human,
+protozoa, fungi and plant taxa [@lu2022]. We then used a custom bioawk
+script to remove any assembled contig that Kraken2 assigned to a
+taxonomic unit other than \*Populus\*, leaving only unassigned or
+\*Populus\*- assigned contigs in each assembly. We assessed the accuracy
+and completeness of the decontaminated assemblies using QUAST and BUSCO
+[@gurevich2013quast; @simao2015busco]. To further assess the contiguity
+and quality of these assemblies, we used minimap2 and BWA to map the
+original HiFi reads and additional Illumina short reads back to each
+assembled haplotype [@li2018minimap2; @li2010fast]. We passed these
+alignments to the program CRAQ [@li2023identification], which leverages
+read depth along assembled contigs for quality assessment. We repeated
+these quality assessment checks at each subsequent stage of genome
+assembly. Phasing, or the separation and concatenation of contigs
+belonging to the same parental haplotype is a key step in genome
+assembly for hybrid individuals, as divergent haplotypes likely contain
+important genetic information. We used mininmap2 to map reads back to
+assembled contigs and to map assembled contigs to themselves. We then
+used the purge_haplotigs pipeline (Roach et al., 2018) to split diploid
+assemblies into two assembled haploytpes for each individual. We used
+RagTag (Alonge et al. 2022) to connect decontaminated, phased contigs
+into pseudo-chromosomal scaffolds, guided by alignments of assembled
+contigs to the Nisqually1 *P. trichocarpa* reference genome. We visually
+inspected minimap2 alignments of scaffolded assemblies to the reference
+genome to identify potential scaffolding errors. We used RepeatMasker to
+annotate and mask repetitive regions and annotated possible coding
+domains and predicted protein sequences for each assembly with AUGUSTUS
+(Smit et al., 2015; Hoff et al., 2019).
+
+### Pan-genome assembly
+
+In a pan-genome graph, a non-redundant collection of all input sequences
+is represented as “nodes”, while the linear sequence of each input
+genome is stored as a “path” connecting a series of nodes. In this
+approach to graph construction, each node of the graph w describes the
+alignment between at least two sequences, given an expected level of
+sequence divergence. We constructed a pan-genome graph from an all-by
+all alignment of the 24 assembled haplotypes. Any contigs shorter than
+100kb were dropped before alignment. We used wfmash (Guarracino et al.,
+2021) to perform all-by-all alignments between assembled chromosomes,
+and seqwish (Garrison & Guarracino, 2022) to project alignments into a
+graph pan-genome assembly. Pan-genome graphs constructed this way can
+have highly complex topography, which may hinder downstream applications
+such a sequence alignment. To combat this issue, we used the program
+smoothXG to smooth complex variation in these graphs. We also assembled
+a separate graph specifically for subsequent alignment-based analyses
+using the minigraph-cactus pipeline [@hickey2023]. We used the program
+panacus to asses pan-genome growth and coverage statistics
+[@parmigiani2024]. We used the program ODGI (Guarracino et al., 2022) to
+perform basic graph quality control and to partition the core ( sequence
+present in all individuals), shell (sequence variably present or absent
+across individuals) and singleton sequence (present in only one
+individuals) content for each graph and individual represented in the
+graphs. We used the program vg [@garrison2018] to deconstruct each graph
+assembly into a VCF containing the variation encapsulated in each graph.
+We passed this deconstructed VCF file to vcfbub
+(github.com/pangenome/vcfbub) to collapse nested SV sites into the
+top-level variant for all SV less than 10kb in length. Using bcftools
+[@danecek2021] we split biallelic sites into multiallelic records for
+this deconstructed vcf.
+
+### Genotyping Pan-genomic Variation
+
+We aligned sequencing reads from additional samples to pan-genome graph
+assembly to genotype SNPs and SVs. We aligned PacBio HiFi reads for 40
+total individuals (including the 16 used to construct the pan-genome
+graph) to the minigraph-cactus graph using the program GraphAligner
+[@rautiainen2020]. To characterize sequence variation across a broader
+set of individuals, we also mapped Illumina short reads for 575
+individuals to the pan-genome graph using the program giraffe
+[@sirén2021]. We then called SV and SNPs from these alignments using the
+vg call algorithm [@garrison2018]. We used bcftools to split
+multialleleic calls into separate records, normalize alleles against the
+*P. trichocarpa* reference and merge calls for all samples into one VCF
+representing SV and SNP genotypes in the *P. trichocarpa* reference
+coordinate space.
+
+### Analysis of Structural Variation and Introgression
+
+We used ADMIXTURE results from Bolte et al (2024) to assign each
+individual an admixture proportion at K=2 and K=4. The genetic data used
+for this ADMIXTURE analysis came from SNP calls from mappings of the
+same illlumina reads used in this study, however they were mapped to the
+*P. trichocarpa* reference genome. We used this same genetic data set to
+perform local ancestry inference (LAI) using LOTR [@dias2018loter].
+These ADMIXTURE and LAI data sets were used to visualize and analyze
+patterns of local and global genomic ancestry throughout this study.
+
+We used ODGI to flatten the Nisqually1 *P. trichocarpa* reference genome
+path in the cactus graph. We then used a bed file representation of this
+path and reference gene annotations to genotype PAV of reference
+sequence across all paths of the cactus graph. We used R version 4.1.0
+to identify core and shell gene sequences from this data and to perform
+PCA on the PAV genotypes [@R]. We also ran a similar PAV PCA with the
+merged vcf representing all 575 sequenced samples in this study, using
+plink2 [@chang2015second]. We used the -–allele-weights flag to extract
+the loading of each allele for each SV on the first 3 principal
+components.
+
+To find SV potentially involved in introgression, we employed custom
+scripts to identify ancestry blocks along the chromosomes of all 335
+admixed individuals in this study. An individual was considered admixed
+if its k=2 ADMIXTURE score indicated at least 5% admixture genome-wide.
+We used Bedtools [@quinlan2010bedtools] to find SV that overlapped
+ancestry blocks in each admixed individual. We then scored each SV
+allele based on its prevalence in ancestry blocks that contrasted the
+average global ancestry of an individual.
+
+For all SV that were outliers in principal component or LAI analyses, we
+used Bedtools to check for overlap with annotated genes. We then used
+plantgenie to analyze PFAM enrichment of gene sets [@sundell2015plant].
+
+## Results
+
+### Whole genome sequencing and assembly.
+
+Illumina sequencing yielded on average of 8358 MB of sequence,
+corresponding to an average sequencing depth of 21x. PacBio HiFi
+sequencing yielded on average 6368 MB of sequence, corresponding to an
+average sequencing depth of 16x. Sample 939 was sequenced to a depth of
+roughly 60X HiFi and roughly 20X ONT reads. Table 1 shows summary
+statistics for the 16 whole genome assemblies included in the
+pan-genome. Assembly quality and contiguity were generally high, however
+alternate haplotypes were not always fully assembled (Table 1).
+
+### Pan-genome assembly
+
+The minigraph-cactus pangenome graph contained a total of 102,907,131
+nodes comprising 1.2 Gbp of sequence. Of this, 243 Mbp was present
+across all individuals (core genome), while 423Mbp was present in some
+but not all individuals (shell genome). The remaining 537 Mbp
+represented singleton sequence. @fig-2 shows how the size of the
+sequence classes changes as individuals are added to the pan-genome.
+@fig-3 shows the proportions of core, shell and singleton sequence
+within each sample. @fig-4 shows each genome in the pan-genome graph
+plotted on the first two principal components of a PCA on PAV of
+reference sequence.
+
+### Pan-genomic Variation
+
+3708 annotated genes were variably present or absent across the 17
+genomes used to construct the pan- =genome. These genes were
+significantly enriched for various protein families including NB-ARC
+domain, D-mannose binding lectin, sulfotransferases, cupins, and
+Cytochrome P450. Of these shell genes, 167 were present in all of the
+pure *P. trichocarpa* individuals and none of the pure *P. balsamifera*
+samples making up the pan-genome graph. These *P. trichocarpa* -
+specific genes were enriched for protein families, including
+sulfotransferases, serine carboxypeptidases, Mlo family proteins,
+D-mannose binding lectin, Glycosyl hydrolases and absistic acid (ABA)
+induced proteins.
+
+The cactus pan-genome graph contained 1,773,427 SV greater than 20bp in
+length. @fig-5 shows the distribution of these variants across the
+genome. The distribution of frequencies of the non-reference allele for
+these SV is shown in @fig-6.
+
+The first two principal components of a PCA on PAV genotyped from short
+read alignments to the pan-genome graph are shown in @fig-7. The loading
+of each allele for each SV on the first principal component of a PCA on
+PAV genotyped from short read alignments to the pan-genome graph is
+shown in @fig-8. The SV that were outliers on PC1 overlapped 1362
+annotated genes. These genes were significantly enriched for protein
+families involved in development and growth (K-Box proteins, KNOX
+proteins), cold tolerance (DEAD/DEAH box helicases), and phenology (SRF
+transcription factors).
+
+### SV and Introgression
+
+We identified 126,973 SV that overlapped ancestry blocks in admixed
+individuals, and found that 30,721 of these were associated with blocks
+of either *P. trichocarpa* or *P. balsamifera* ancestry in admixed
+individuals.
+
+### Tables
+
+```{r, echo=FALSE}
+library(gt)
+library(tidyverse)
+
+asm_dat <- read_csv("cactus_assmebly_stats_master.csv") %>%
+  select(-c(flagged, craq_r_aqi,craq_s_aqi))%>%
+    rename(`Coverage Rate`= craq_cov_rate,
+           `Low Confidence Rate`= craq_low_conf_rate,
+           `Mean Assembly Quality Index`= craq_mean_aqi,
+           `Number of Scaffolds`= n_scaffolds)
+  
+
+# make into clean table 
+
+  gt(asm_dat) %>%
+  tab_header(
+    title = "Assembly Statistics",
+    subtitle = "Metrics of size, quality and completeness for the assmeblies making up the pan-genome"
+  ) %>%
+  tab_spanner(
+    label = "Assembly size",
+    columns = c(length,`Number of Scaffolds`,N50,N50_n)
+  ) %>%
+  tab_spanner(
+    label = "Assembly size completeness",
+    columns = c(gaps,N_count,`Coverage Rate`, busco_complete,busco_duplicated,busco_fragmented, `Coverage Rate`)
+    ) %>%
+  tab_spanner(
+    label = "Assembly quality",
+    columns = c(`Low Confidence Rate`, `Mean Assembly Quality Index`)
+  )
+ 
 ```
 
-```{r}
-#| label: fig-timeline
-#| fig-cap: Timeline of recent earthquakes on La Palma
-#| fig-alt: An event plot of the years of the last 8 eruptions on La Palma.
-#| fig-height: 1.5
-#| fig-width: 6
-par(mar = c(3, 1, 1, 1) + 0.1)
-plot(eruptions, rep(0, n_eruptions), 
-  pch = "|", axes = FALSE)
-axis(1)
-box()
-```
+# Figures
 
-```{r}
-#| output: false
-avg_years_between_eruptions <- mean(diff(eruptions[-n_eruptions]))
-avg_years_between_eruptions
-```
+::: {#fig-1 layout-ncol="2"}
+![](figs/msamp.jpg)
 
-Based on data up to and including 1971, eruptions on La Palma happen every `{r} round(avg_years_between_eruptions, 1)` years on average.
+![](figs/msamp_sub.jpg)
 
-Studies of the magma systems feeding the volcano, such as @marrero2019, have proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges and in turn feeds a shallower crustal reservoir (10-20km depth).
+(Left): sampling locations for 575 individuals used in this study, color
+indicates ancestry based in ADMIXTURE analysis (Right): A subset of 16
+individuals used for whole genome assembly
+:::
 
-Eight eruptions have been recorded since the late 1400s (@fig-timeline).
+::: {#fig-2}
+![](figs/pg_growth.jpg)
 
-Data and methods are discussed in @sec-data-methods.
+Pan-genome growth curve visualizes the change in core and shell genome
+size as samples are added
+:::
 
-Let $x$ denote the number of eruptions in a year. Then, $x$ can be modeled by a Poisson distribution
+::: {#fig-3}
+![](figs/pg_content.jpg)
 
-$$
-p(x) = \frac{e^{-\lambda} \lambda^{x}}{x !}
-$$ {#eq-poisson}
+The relative length of the core, shell and singleton portions of the
+pan-genome for each sample represented
+:::
 
-where $\lambda$ is the rate of eruptions per year. Using @eq-poisson, the probability of an eruption in the next $t$ years can be calculated.
+::: {#fig-4}
+![](figs/pav_pca.jpg)
 
-| Name                 | Year   |
-| -------------------- | ------ |
-| Current              | 2021   |
-| Teneguía             | 1971   |
-| Nambroque            | 1949   |
-| El Charco            | 1712   |
-| Volcán San Antonio   | 1677   |
-| Volcán San Martin    | 1646   |
-| Tajuya near El Paso  | 1585   |
-| Montaña Quemada      | 1492   |
+The first two principal components of a PCA on presence/absence
+variation in the pan-genome. Color indicates ancestry based in ADMIXTURE
+analysis.
+:::
 
-: Recent historic eruptions on La Palma {#tbl-history}
+::: {#fig-5}
+![](figs/sv_density.jpg) The distribution of SV \> 20bp in length across
+the genome
+:::
 
-@tbl-history summarises the eruptions recorded since the colonization of the islands by Europeans in the late 1400s.
+::: {#fig-6}
+![](figs/sv_freq.jpg) The frequency distribution of the non-reference
+allele for SV of different size classes
+:::
 
-![Map of La Palma](images/la-palma-map.png){#fig-map}
+::: {#fig-7}
+![](figs/sv_pc1_pc2.jpg)
 
-La Palma is one of the west most islands in the Volcanic Archipelago of the Canary Islands (@fig-map). 
+The first two principal components of a PCA of PAV genotyped from short
+read alignments to the pan-genome graph. Color indicates ancestry based
+in ADMIXTURE analysis. Shape indicates which of the latitudinal
+transects the individual was sampled from.
+:::
 
-{{< embed notebooks/explore-earthquakes.qmd#fig-spatial-plot >}}
+::: {#fig-8}
+![](figs/pc1_loading.jpg)
 
-@fig-spatial-plot shows the location of recent Earthquakes on La Palma.
-
-## Data & Methods {#sec-data-methods}
-
-## Conclusion
-
-## References {.unnumbered}
-
-:::{#refs}
-
+The loading of each allele for each SV on the first principle component
+of a PCA on PAV genotyped from short read alignments to the pan-genome
+graph. Red points are indicate P. trichocarpa reference alleles, blue
+points indicate non-reference alleles.
 :::
