@@ -361,6 +361,7 @@ individuals, and found that 30,721 of these were associated with blocks
 of either *P. trichocarpa* or *P. balsamifera* ancestry in admixed
 individuals.
 
+
 ### Tables
 
 ![](images/table.png)
