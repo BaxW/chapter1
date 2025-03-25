@@ -251,13 +251,13 @@ Hybrid Zones</article-title>
     libraries for all sampled individuals were constructed at the Duke
     University Center for Genomic and Computational Biology and
     sequenced using an Illumina NovaSeq 6000 instrument with an S4 flow
-    cell in 2 × 150 bp format with 64 samples per lane (Illumina Inc.,
-    San Diego, USA). De-indexing, QC, trimming adapter sequences, and
-    sequence pre-processing were completed by the sequencing facility.
-    In addition to short read sequencing, we also sequenced a subset of
-    40 sampled individuals with PacBio HiFi long reads. We harvested
-    tissue from newly-expanded leaves grown under low light conditions
-    to use for high molecular weight DNA extraction. After confirming
+    cell with 64 samples per lane (Illumina Inc., San Diego, USA).
+    De-indexing, QC, trimming adapter sequences, and sequence
+    pre-processing were completed by the sequencing facility. In
+    addition to short read sequencing, we also sequenced a subset of 40
+    sampled individuals with PacBio HiFi long reads. We harvested tissue
+    from newly-expanded leaves grown under low light conditions to use
+    for high molecular weight DNA extraction. After confirming
     extraction quality through gel electrophoresis and bioanalysis, we
     submitted HMW DNA to the University of Maryland Center for
     Integrative Biosciences Genomics Core Facility for library
