@@ -372,7 +372,7 @@ individuals.
 
 ### Tables
 
-![](figs/table.jpg)
+![](figs/table.jpg){fig-format: svg}
 
 
 # Figures
@@ -433,14 +433,7 @@ on ADMIXTURE analysis. Shape indicates which of the latitudinal
 transects the individual was sampled from.
 :::
 
-::: {#fig-8}
-![](images/pc1_loading.jpg)
 
-The loading of each allele for each SV on the first principle component
-of a PCA on PAV genotyped from short read alignments to the pan-genome
-graph. Red points are indicate P. trichocarpa reference alleles, blue
-points indicate non-reference alleles.
-:::
 
 ## References {.unnumbered}
 
