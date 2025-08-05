@@ -15,71 +15,109 @@ editor:
 
 ## Introduction
 
-Hybridization between distinct species can lead to the exchange of
-genetic variation across species boundaries, a process known as
-introgression. Introgression is a key source of genetic novelty that shapes the evolution of natural systems (*CITE*) and humans (*cite*) and contributes to the development of crop varietals [@gao2019tomato; @kou2020evolutionary; @cheng2019frequent; Sun et al., 2020; Qiao et al.,2021; Zanini et al., 2021 ]. Admixed individuals, the recipients of intorgressed sequence, present novel combinations of alleles originating from both parental species and serve as tests of the environmental and molecular factors that limit the adaptive exchange of genetic variation between species. Indeed, research on natural admixed populations suggests that introgression can be an adaptive process,through which genetic variation related to locally-adaptive phenotypes is passed from one species to the other [@suarez2018adaptive;
-@leroy2020adaptive; @rendon2021adaptive; @hamilton2016adaptive; savolainen2007gene; kremer2020oaks] (*CITE MORE THAN JUST TREES*). Closer and more extensive analysis of natural mainfestations of adaptive introgression can reveal the types of genetic variation that are able to adaptively cross species boundaries, the regions of the genome that are receptive to the introduction of foreign sequence and the degree to which environmental context influences the adaptive nature pf introgression. Such research is valuable not only becasue it sheds lights on important questions in evolutionary biology, such as the evolution of species boundaries and molecular basiss of adaptive traits, but also because it gauges the overall potential for the introduction of foreign genetic variation into a novel genetic background, which is a key area of exploration in the field of biotechnology. 
+Hybridization can lead to the exchange of genetic variation across
+species boundaries, a process known as introgression. Introgression is a
+powerful source of genetic novelty, playing a significant role in the
+evolutionary history of natural systems [@hedrick2013adaptive;
+@suarez2018adaptive], humans [@racimo2015evidence] and key crop
+varietals [@burgarella2019adaptive; @gao2019tomato;
+@kou2020evolutionary; @cheng2019frequent; @sun2020phased;
+@qiao2021evolutionary; @zanini2022pangenomics]. Admixed individuals, the
+recipients of introgressed sequence, harbor novel combinations of
+alleles originating from both parental species, and may present
+phenotypic variation which transcends that observed in the parental
+species. In this sense, admixed individuals represent unique
+opportunities, not only to better understand the genetic basis of
+phenotype, but also to better understand the nature of molecular
+interactions between divergent haplotypes. Furthermore, when parental
+species inhabit differing environments, patterns of introgression may
+also reflect the interaction between genetic variation and environment.
+Ultimately, these GxG and GxE interactions define the contexts in which
+introgression is adaptive. Past research on natural admixed populations
+suggests that introgression can be an adaptive process, through which
+genetic variation related to locally-adaptive phenotypes is passed from
+one species to another [@hedrick2013adaptive; @suarez2018adaptive;
+@leroy2020adaptive; @rendon2021adaptive; @hamilton2016adaptive;
+@savolainen2007gene; @kremer2020oaks; @gaczorek2024widespread]. Closer
+and more extensive analysis of natural manifestations of adaptive
+introgression can reveal the types of genetic variation that are able to
+cross species boundaries without a fitness consequence, the regions of
+the genome that are receptive to the introduction of foreign sequence,
+and the degree to which environmental context influences the adaptive
+nature of introgression. Research in this area is valuable not only
+because it sheds light on important questions in evolutionary biology,
+such as the evolution of species boundaries and molecular basis of
+adaptive traits, but also because it gauges the overall potential for
+the introduction of divergent genetic variation into novel genetic and
+environmental background. Therefore, research in this area has great
+potential for broader impact for two main reasons. First, because the
+contribution of biotechnology to advances in the fields of medicine and
+agriculture increasingly depend on the introduction of genetic sequence
+into a novel background. Second, because introgression provides a
+potentially faster and more reliable route for the adaptive evolution of
+phenotype than de novo mutation, meaning that natural systems and
+breeding programs alike may depend on introgression in order to
+facilitate rapid evolution of adaptive traits in response to changing
+climates.
 
-The size and molecular origin of the genetic variation that is exchanged between species through adaptive introgression is important to define, as a growing body of research suggests that genomic structural variation (SV), here defined as genetic variation larger than 50bp resulting for insertion, deletion, translocation or inversion of genomic sequence is often the causal variation underlying ecologically and economically important traits in many taxa. For instance, SV may play a role in local adaptation to climate, and past research shows divergence between populations for SV genotypes resulting from both local adaptation and neutral population structure [@hamala2021genomic;@songsomboon2021genomic; @li2024pan; @li2023pig]. At a broader scale, research also shows that SV maintain genetic differentiation between species ([@zhang2021important]. However, less is known about the adaptive exchange of SV genotypes between divergent populations and species. Introgression between crop
-varietals and wild relatives has been a key factor in the breeding history of many crops, and recent work shows that SV are often the casual variants involved in this process [@gao2019tomato; @kou2020evolutionary; @cheng2019frequent; Sun et al., 2020; Qiao et al.,2021; Zanini et al., 2021 ]. Introgression is also common in natrual systmes and recent work highlights introgression as an important source of adaptive genetic novelty in many species, particularly forest trees [@suarez2018adaptive; @leroy2020adaptive; @rendon2021adaptive; @hamilton2016adaptive]. However, past work on the genetics of such adaptive introgression in natural systems focused primarily on SNP genotypes. While hybrid genomes may be porous to variation at the singl -nucleotide scale, and introgressed SNP alleles may even present an adaptive advantage in admixed individuals, it remains unclear if the same true for SV genotypes, which have greater potential for delterious phenotypic effects. Recently, research has highlighted a potential role for SV in adaptive intorgression. This work suggests that SV may play an important role in both adaptive introgression [@almarri2020population; @xia2023structural; @zhang2021pan] and in the maintenance of species boundaries
-[@zhang2021important]. If SV is indeed involved in adaptive introgression, it is worth investigating the molecular nature (eg size, frequency, variant class, genomic location) of the SV alleles involved, as well as the consistency and directionality of intrgression involving SV. Admixed individuals may present mosaics of SV alleles derived from both parental sepecies, or introgression may be directionally biased. Similarly, natural hybrid zones may be hotspots for the generation of novel SV alleles through processes such as unequal crossing over. Here, we leverage extensive sampling of natural forest tree hybrid zones, cutting edge techniques for genotyping SV in admixed individuals and established landscape genomics analyses to investigate these areas of uncertainty. 
-
-
-
-****CHOP***
-Hybridization between distinct species can lead to the exchange of
-genetic variation across species boundaries, a process known as
-introgression. Introgression is common among inter-fertile species of
-forest trees, and in many cases, is hypothesized to be an adaptive
-process, through which genetic variation related to locally-adaptive
-phenotypes is passed from one species to the other [@suarez2018adaptive;
-@leroy2020adaptive; @rendon2021adaptive; @hamilton2016adaptive] Support
-for this hypothesis requires a clearer understanding of the nature of
-genetic variation that is exchanged between species, and the degree to
-which this variation is involved in adaptive processes in natural
-populations. Characterization of the genetic variation involved in
-adaptive introgression would shed light on the evolutionary forces that
-influence the content of admixed genomes and help reveal the loci that
-underlie both the adaptive traits and genetic incompatibilities that
-shape species boundaries.
-
-
-****CHOP***
-The majority of past research on adaptive introgression has focused on
-single nucleotide polymorphisms (SNPs) and small indels, but structural
-variation (SV) is also likely to play a role in adaptive introgression.
-SV, which includes deletions, duplications, inversions, and
-translocations of DNA segments, can have a significant impact on gene
-expression, gene function, and ultimately, adaptive phenotypic
-variation. For this reason, SV is known to be a major source of genetic
-variation in many species, and has been implicated in the evolution of
-adaptive traits in a variety of taxa [@hamala2021genomic;
-@songsomboon2021genomic; @li2024pan; @li2023pig]. As the notion that SV
-is involved in adaptive evolution gains support, it is only logical to
-ask is how SV is involved in adaptive introgression. Recent research
+The size and molecular origin of the genetic variation that is exchanged
+between species through adaptive introgression is important to define,
+as a growing body of research suggests that genomic structural variation
+(SV), here defined as genetic variation larger than 50bp resulting for
+insertion, deletion, translocation or inversion of genomic sequence, is
+often the causal variation underlying ecologically and economically
+important traits in many taxa (*CITE*). For instance, SV may play a role
+in local adaptation to climate, and past research shows divergence
+between populations for SV genotypes resulting from local adaptation
+[@hamala2021genomic; @songsomboon2021genomic; @li2024pan; @li2023pig].
+At a broader scale, research also shows that SV maintain genetic
+differentiation between species [@zhang2021important;
+@ferguson2024exploring]. However, little is known about the adaptive
+exchange of SV genotypes between divergent populations and species.
+Introgression between crop varietals and wild relatives is a key factor
+in the breeding history of many crops, and recent work shows that SV are
+often the causal variants involved in this process [@gao2019tomato;
+@kou2020evolutionary; @cheng2019frequent; @sun2020phased,;
+@qiao2021evolutionary; @zanini2022pangenomics]. Introgression is also
+common in natural systems and recent work highlights introgression as an
+important source of adaptive genetic novelty in many species,
+particularly forest trees [@suarez2018adaptive; @leroy2020adaptive;
+@rendon2021adaptive; @hamilton2016adaptive]. However, past work on the
+genetics of such adaptive introgression in natural systems focused
+primarily on SNP genotypes. While hybrid genomes may be porous to
+variation at the single nucleotide scale, and introgressed SNP alleles
+may even present an adaptive advantage in admixed individuals, it
+remains unclear if the same is true for SV genotypes, which have greater
+potential for deleterious phenotypic effects. Recently, research has
+highlighted a potential role for SV in adaptive introgression. This work
 suggests that SV may play an important role in both adaptive
 introgression [@almarri2020population; @xia2023structural;
 @zhang2021pan] and in the maintenance of species boundaries
-[@zhang2021important] in natural systems. Introgression between crop
-varietals and wild relatives has been a key factor in the breeding
-history of many crops, and recent work shows that SV are often the
-casual variants involved in this process [@gao2019tomato;
-@kou2020evolutionary; @cheng2019frequent; Sun et al., 2020; Qiao et al.,
-2021; Zanini et al., 2021 ]. While the significant effect of
-introgressed SV on economically important crop traits is well
-recognized, far less in known about the relationship between
-introgression, SV and ecologically important traits in natural hybrid
-zones.
+[@zhang2021important]. If SV is indeed involved in adaptive
+introgression, it is worth investigating the molecular nature (eg size,
+frequency, variant class, genomic location) of the SV alleles involved,
+as well as the consistency and directionality of adaptive introgression
+involving SV. Admixed individuals may present mosaics of SV alleles
+derived from both parental species, or introgression may be
+directionally biased toward one species. Similarly, some loci may act as
+barriers to introgression, while others are more receptive. Natural
+hybrid zones may be hotspots for the de novo generation of SV alleles
+through processes such as unequal crossing over. Here, we leverage
+extensive sampling of natural forest tree hybrid zones, cutting edge
+techniques for genotyping SV in admixed individuals and established
+landscape genomics analyses to investigate these areas of uncertainty.
 
 The study of SV in natural hybrid zones is challenging, as it requires
 the ability to accurately genotype SV in a large number of admixed
 individuals. The majority of past research on SV in natural hybrid zones
-has relied on the use of reference genomes derived from a single individual from only one of the parental species, which
-can lead to reference bias [@bock2023genomics; song2023plant; feng2024integrating]. Reference bias occurs when the genomes of re
-sequenced individuals contain regions that are highly diverged from the
-reference genome sequence, causing reads originating from these regions to align
-incorrectly, or not align at all. This can lead
-to misinterpretation or under-representation of variation resulting from
+has relied on the use of reference genomes derived from a single
+individual from only one of the parental species, which can lead to
+reference bias [@bock2023genomics; @song2023plant;
+@feng2024integrating]. Reference bias occurs when the genomes of
+resequenced individuals contain regions that are highly diverged from
+the reference genome sequence, causing reads originating from these
+regions to align incorrectly, or not align at all. This can lead to
+misinterpretation or under-representation of variation resulting from
 admixture [@secomandi2025pangenome]. Reference bias is particularly
 problematic when studying SV, as large insertions and deletions may be
 longer than sequencing reads, making variation in their presence and
@@ -92,71 +130,107 @@ involved in introgression.
 
 Recently, an increasing number of studies have relied on pan-genome
 assembly to overcome reference bias and to accurately genotype SV
-[@liang2025; @secomandi2025pangenome; @kang2023pan; @gao2019tomato; @li2023pig; @li2024pan;
-@songsomboon2021genomic]. A pan-genome assembly is a non-redundant
-collection of sequences originating from multiple individuals. This
-genetic information can be represented as "nodes" in a pan-genome graph,
-while the linear sequence of each input genome is stored as a "path"
-connecting a series of nodes. In a pan-genome graph, each node describes
-the alignment between at least two sequences, given an expected level of
-sequence divergence [@kang2023pan]. Pan-genome graphs can capture complex variation
-that is not present in a single reference genome, and can provide a more
-accurate representation of the genetic variation present in admixed
-individuals. Pan-genome assembly has been used to identify and genotype
-SV related to ecologically and economically important traits in a
-variety of taxa, and has been shown to be an effective tool for studying
-adaptive evolution in natural populations [@secomandi2025pangenome;
-@fang2024fitness; @kang2023pan]. Pan-genome assembly could help overcome the challenges of studying SV in
-admixed tree populations, and could provide new insights into the role of
-SV in adaptive introgression in natural populations of forest trees [secomandi2025pangenome]. Despite this potentail, we know of only one study that used pan-genome assembly to examine introgression in the context of forest
-tree hybrid zones. Liang et al. (2025) use a pan-genome based approach to genotype SV in a range-wide sampling of the interfertile oak species *Quercus variabilis* and *Q. acutissima*, showing that SV show signals of adaptive intorgression that differs from that detected from SNP data and identifying adaptive intorgression of SV genotyps in a gene rich region of oak chromosome 9 [@liang2025]. Here, we add to this naicent line of research by exploring the relationship between structural variation and introgression between *Populus balsamifera* and *Populus trichocarpa*, two forest tree species that diverged much more recently than the oak species studied by Liang et al. (2025). We leverage a larger sample size and finer geographic scale to study the role of SV in local adaptation and adaptive introgression across repeated hybrid zones.
+[@liang2025; @secomandi2025pangenome; @kang2023pan; @gao2019tomato;
+@li2023pig; @li2024pan; @songsomboon2021genomic]. A pan-genome assembly
+is a non-redundant collection of sequences originating from multiple
+individuals. This genetic information can be represented as "nodes" in a
+pan-genome graph, while the linear sequence of each input genome is
+stored as a "path" connecting a series of nodes. In a pan-genome graph,
+each node describes the alignment between at least two sequences, given
+an expected level of sequence divergence [@kang2023pan]. Pan-genome
+graphs can capture complex variation that is not present in a single
+reference genome, and can provide a more accurate representation of the
+genetic variation present in admixed individuals. Pan-genome assembly
+has been used to identify and genotype SV related to ecologically and
+economically important traits in a variety of taxa, and has been shown
+to be an effective tool for studying adaptive evolution in natural
+populations [@secomandi2025pangenome; @fang2024fitness; @kang2023pan].
+Pan-genome assembly could help overcome the challenges of studying SV in
+admixed tree populations, and could provide new insights into the role
+of SV in adaptive introgression in natural populations of forest trees
+[@secomandi2025pangenome]. Despite this potential, we know of only one
+study that used pan-genome assembly to examine introgression in the
+context of hybridization in the wild. Liang et al. (2025) use a
+pan-genome based approach to genotype SV in a range-wide sampling of the
+interfertile oak species *Quercus variabilis* and *Q. acutissima*,
+showing that SV harbor signals of adaptive introgression that differ
+from those detected from SNP data and identifying adaptive introgression
+of SV genotypes in a gene rich region of oak chromosome 9 [@liang2025].
+In light of this work, it is worth investigating if signatures adaptive
+introgression on SV exist in other interfertile tree species and asking
+not only how this adaptive signal is distributed across the whole genome
+but also how it varies with environmental context across the range of
+hybridizing species. Here, we add to this nascent line of research by
+leveraging pan-genome assembly and fine-scale sampling of natural hybrid
+zones to explore genome-wide relationship between structural variation
+and introgression between *Populus balsamifera* and *Populus
+trichocarpa*, two forest tree species that diverged much more recently
+than the oak species studied by Liang et al. (2025).
 
-
-*Populus balsamifera* and *Populus trichocarpa* are two species of
-forest tree that readily interbreed in nature, and early and advanced
-generation hybrids have been described in hybrid zones located where
-their ranges overlap (Geraldes et al., 2014; Suarez-Gonzalez et
-al.,2016; 2018; Chhatre et al. 2019). It has previously been
-hypothesized that hybridization between these two species contributes to
-an adaptive process, facilitating introgression of genetic variation related to
-locally-adaptive phenotypes from one species to the other (Suarez-Gonzalez et al., 2016;
-Suarez-Gonzalez et al., 2018). However, studies on controlled inter-specific
-crosses in *Populus* have made it clear that introgression is often
-biased toward particular regions of the genome, particular *Populus*
-species, or specific environments (Lexer et al., 2005; Thompson et al.,
-2010; Meirmans et al., 2017). Therefore, the porosity of the genome to adaptive
-introgression between hybridizing species may be constrained by incompatibilities between the genomic variants involved as well as
-environmental context, two factors which warrant further investigation.
-The environmental context of adaptive introgression may be of particular
-importance in the case of *P. balsamifera* and *P. trichocarpa*. *P.
-balsamifera* is more commonly found in colder, continental climates
-while *P. trichocarpa* is more often associated with milder, coastal
-climates with longer growing seasons (Geraldes et al., 2014;
-Suarez-Gonzalez et al., 2018). Considering hybrid zones between these
-species often fall along the boundaries of their ranges (Chhatre et al., 2019; Fetter and Keller, 2023), it seems
-possible that adaptive introgression helps hybrid individuals persist in
-environments that are outside of the optimum for either parental
-species. Suarez-Gonzalez et al. (2018) showed support for this
-hypothesis, finding that introgressed regions in the genomes of hybrids
-harbored signs of selection and variation associated
-with adaptive traits, including phenology. However, the specific
-adaptive variants within these genomic regions, and the nature of their
-effects on fitness remain, for the most part, undiscovered. Identification of SV involved in adaptive introgression between these two species would not only contirbute to a broader undersatanidng of the molecular basis of adaptive introgression, but would also provide helpful insight into the conservation of these ecologically important species. In trees, long generations times are thought to limit the potential contribution of de novo mutation to adaptive evolution in response to rapid environmental change [@savolainen2007gene; @feng2024integrating]. Therefore, adaptive intorgression is viewed as one of the few routs for trees to undergo rapid evolutionin repsonse top cliamte change [@feng2024integrating].  If adaptive introgression does help admixed individiuals persist in environments oitside of their optimum, then the varaition involved could guide geneic conservation efforts, such as assisted gene flow. Furthermore, industrial breeding of *Populus* varietals generally involves interspecific corsses, and breeding programs would benefit from a clearer understanding of the genetic variation that is involved in adaptive introgression between these two species.
+*Populus balsamifera* and *Populus trichocarpa* readily interbreed in
+nature, and early and advanced generation hybrids have been described in
+hybrid zones located where their ranges overlap [@geraldes2014landscape;
+@suarez2016; @suarez2018a; @chhatre2018adaptive]. It is thought that
+hybridization between these two species facilitates introgression of
+genetic variation related to locally-adaptive phenotypes from one
+species to the other [@suarez2016; @suarez2018a]. However, studies on
+controlled inter-specific crosses in *Populus* have made it clear that
+introgression is often biased toward particular regions of the genome,
+particular *Populus* species, or specific environments
+[@lexer2005barrier; @thompson2010repeated; @meirmans2017history].
+Therefore, the porosity of the genome to adaptive introgression between
+these species may be constrained by incompatibilities between the
+genomic variants involved as well as environmental context, two factors
+which warrant further investigation. The environmental context of
+adaptive introgression may be of particular importance in the case of
+*P. balsamifera* and *P. trichocarpa*. *P. balsamifera* is more commonly
+found in colder, continental climates while *P. trichocarpa* is more
+often associated with milder, coastal climates with longer growing
+seasons [@geraldes2014landscape; @suarez2018a]. Considering hybrid zones
+between these species often fall along the boundaries of their ranges
+(@chhatre2018adaptive; @fetter2023admixture), it seems possible that
+adaptive introgression helps hybrid individuals persist in environments
+that are outside of the optimum for either parental species.
+@suarez2018a showed support for this hypothesis, finding that
+introgressed regions in the genomes of hybrids harbored signs of
+selection and variation associated with adaptive traits, including
+phenology. However, the specific adaptive variants within these genomic
+regions, and the nature of their effects on fitness remain, for the most
+part, undiscovered. Identification of SV involved in adaptive
+introgression between these two species would not only contribute to a
+broader understanding of the molecular basis of adaptive introgression,
+but would also provide helpful insight into the conservation of these
+ecologically important species. In trees, long generations times are
+thought to limit the potential contribution of de novo mutation to
+adaptive evolution in response to rapid environmental change
+[@savolainen2007gene; @feng2024integrating]. Therefore, adaptive
+introgression is viewed as one of the few routs for speicies like *P.
+balsamifera* and *P. trichocarpa* to adaptively evolve in response to
+climate change [@feng2024integrating]. If adaptive introgression does
+help admixed individuals persist in environments outside of their
+optimum, then the variation involved could guide genetic conservation
+efforts, such as assisted gene flow. Furthermore, industrial breeding of
+*Populus* varietals generally involves interspecific crosses, and
+breeding programs would benefit from a clearer understanding of the
+genetic variation that is involved in adaptive introgression between
+these two species.
 
 Here, we take advantage of recent advances in pan-genome assembly
 methods to produce a pan-genome reference, comprising 24 diverse
 haplotypes from *P. balsamifera*, *P. trichocarpa* and their hybrids,
 facilitating unbiased analysis of the sequence variation that is
-segregating within natural *Populus* hybrid zones. Using this new pan-genome assembly, we genotype structural variation across 566
-individuals sampled from within and outside of 6 distinct *P. balsamifera*
-and *P. trichocarpa* hybrid zones. We assess the extent of genomic
-diversity present in these species and their hybrids, identifying
-genomic variation that is not present in the *P. trichocarpa* reference
-genome. Furthermore, we describe structural variation involved both in
-introgression and in genomic divergence between the two species. We shed
-light on the role that introgression may play in shaping the pan-genome
-of these species, and the degree to which tree genomes are porous to the
-inter-specific exchange of structural variant alleles.
+segregating within natural *Populus* hybrid zones. Using this new
+pan-genome assembly, we genotype structural variation across 566
+individuals sampled from within and outside of 6 distinct *P.
+balsamifera* and *P. trichocarpa* hybrid zones. We assess the extent of
+genomic diversity present in these species and their hybrids,
+identifying genomic variation that is not present in the *P.
+trichocarpa* reference genome. Furthermore, we describe structural
+variation involved both in introgression and in genomic divergence
+between the two species. We shed light on the role that introgression
+may play in shaping the pan-genome of these species, and the degree to
+which tree genomes are porous to the inter-specific exchange of
+structural variant alleles.
 
 ## Methods
 
@@ -169,29 +243,30 @@ read whole genome sequencing and subsequent bioinformatic analyses were
 performed as described in Bolte et al. (2024). Briefly, Genomic DNA
 libraries for all sampled individuals were constructed at the Duke
 University Center for Genomic and Computational Biology and sequenced
-using an Illumina NovaSeq 6000 instrument with an S4 flow cell with 64 samples per lane (Illumina Inc., San Diego,
-USA). De-indexing, QC, trimming adapter sequences, and sequence
-pre-processing were completed by the sequencing facility. In addition to
-short read sequencing, we also sequenced a subset of 40 sampled
-individuals with PacBio HiFi long reads. We harvested tissue from
-newly-expanded leaves grown under low light conditions to use for high
-molecular weight DNA extraction. After confirming extraction quality
-through gel electrophoresis and bioanalysis, we submitted HMW DNA to the
-University of Maryland Center for Integrative Biosciences Genomics Core
-Facility for library preparation and sequencing on the the PacBio Sequel
-system with two samples per SMRT flow cell. We sequenced one *P.
-balsamifera* sample (939) for an additional run on a full SMRT cell. We
-also sequenced this individual with Oxford Nanopore Technology (ONT)
-platform. We submitted high molecular weight DNA to the Vermont
-Integrative Genomics Resource Sequencing Center for library preparation
-and sequencing on XXX flowcell (two runs) and XXX flowcell (one run)
+using an Illumina NovaSeq 6000 instrument with an S4 flow cell with 64
+samples per lane (Illumina Inc., San Diego, USA). De-indexing, QC,
+trimming adapter sequences, and sequence pre-processing were completed
+by the sequencing facility. In addition to short read sequencing, we
+also sequenced a subset of 40 sampled individuals with PacBio HiFi long
+reads. We harvested tissue from newly-expanded leaves grown under low
+light conditions to use for high molecular weight DNA extraction. After
+confirming extraction quality through gel electrophoresis and
+bioanalysis, we submitted HMW DNA to the University of Maryland Center
+for Integrative Biosciences Genomics Core Facility for library
+preparation and sequencing on the the PacBio Sequel system with two
+samples per SMRT flow cell. We sequenced one *P. balsamifera* sample
+(939) for an additional run on a full SMRT cell. We also sequenced this
+individual with Oxford Nanopore Technology (ONT) platform. We submitted
+high molecular weight DNA to the Vermont Integrative Genomics Resource
+Sequencing Center for library preparation and sequencing on XXX flowcell
+(two runs) and XXX flowcell (one run)
 
 ### Genome assembly
 
 Of the 40 individuals sequenced with HiFi long reads, we selected 16 for
-whole genome assembly [@fig-1]. These samples ranged from 20 to 35x
-long read coverage. We performed de-novo genome assembly of the HiFi
-reads for these samples with HiCanu [@nurk2020hicanu]. We set HiCanu
+whole genome assembly [@fig-1]. These samples ranged from 20 to 35x long
+read coverage. We performed de-novo genome assembly of the HiFi reads
+for these samples with HiCanu [@nurk2020hicanu]. We set HiCanu
 parameters as follows: gSize="400m", lc="5", lcer="0.055", ovrlp="350",
 mincov="9". To detect potential contaminants in the raw assemblies
 produced by HiCanu, we used the program Kraken2 to compare the k-mer
@@ -298,11 +373,11 @@ components.
 To find SV potentially involved in introgression, we employed custom
 scripts to identify ancestry blocks along the chromosomes of all 335
 admixed individuals in this study. An individual was considered admixed
-if its k=2 ADMIXTURE score indicated at least 5 percent admixture genome-wide.
-We used Bedtools [@quinlan2010bedtools] to find SV that overlapped
-ancestry blocks in each admixed individual. We then scored each SV
-allele based on its prevalence in ancestry blocks that contrasted the
-average global ancestry of an individual.
+if its k=2 ADMIXTURE score indicated at least 5 percent admixture
+genome-wide. We used Bedtools [@quinlan2010bedtools] to find SV that
+overlapped ancestry blocks in each admixed individual. We then scored
+each SV allele based on its prevalence in ancestry blocks that
+contrasted the average global ancestry of an individual.
 
 For all SV that were outliers in principal component or LAI analyses, we
 used Bedtools to check for overlap with annotated genes. We then used
@@ -354,10 +429,10 @@ genome. The distribution of frequencies of the non-reference allele for
 these SV is shown in [@fig-6].
 
 The first two principal components of a PCA on PAV genotyped from short
-read alignments to the pan-genome graph are shown in [@fig-7]. The loading
-of each allele for each SV on the first principal component of a PCA on
-PAV genotyped from short read alignments to the pan-genome graph is
-shown in [@fig-8]. The SV that were outliers on PC1 overlapped 1362
+read alignments to the pan-genome graph are shown in [@fig-7]. The
+loading of each allele for each SV on the first principal component of a
+PCA on PAV genotyped from short read alignments to the pan-genome graph
+is shown in [@fig-8]. The SV that were outliers on PC1 overlapped 1362
 annotated genes. These genes were significantly enriched for protein
 families involved in development and growth (K-Box proteins, KNOX
 proteins), cold tolerance (DEAD/DEAH box helicases), and phenology (SRF
@@ -374,11 +449,9 @@ individuals.
 
 ![](figs/table.jpg){fig-format: svg}
 
-
 # Figures
 
-::: {#fig-1 layout-ncol=2}
-
+::: {#fig-1 layout-ncol="2"}
 ![](figs/msamp.jpg){#fig-1a}
 
 ![](figs/msamp_sub.jpg){#fig-1b}
@@ -388,40 +461,40 @@ indicates ancestry based in ADMIXTURE analysis (b): A subset of 16
 individuals used for whole genome assembly
 :::
 
-::: {#fig-2 layout-ncol=2}
-
+::: {#fig-2 layout-ncol="2"}
 ![](figs/pg_growth.jpg){#fig-2a}
 
 ![](figs/pg_content.jpg){#fig-2b}
 
-(a): Pan-genome growth curve visualizes the change in core and shell genome
-size as samples are added. (b): The relative length of the core, shell and singleton portions of the
-pan-genome for each sample represented
+(a): Pan-genome growth curve visualizes the change in core and shell
+genome size as samples are added. (b): The relative length of the core,
+shell and singleton portions of the pan-genome for each sample
+represented
 :::
 
-
-::: {#fig-3 layout-ncol=3}
-
-![](figs/com_pav_pca.jpg){#fig-3a}
-![](figs/rar_pav_pca.jpg){#fig-3b}
+::: {#fig-3 layout-ncol="3"}
+![](figs/com_pav_pca.jpg){#fig-3a} ![](figs/rar_pav_pca.jpg){#fig-3b}
 
 ![](figs/pav_pca.jpg){#fig-3c}
 
 The first two principal components of a PCA on presence/absence
-variation in the pan-genome. Results of PCA on common (a), rare (b) and all (c) PAV are shown Color indicates ancestry based in ADMIXTURE
+variation in the pan-genome. Results of PCA on common (a), rare (b) and
+all (c) PAV are shown Color indicates ancestry based in ADMIXTURE
 analysis.
 :::
 
 ::: {#fig-5}
-![](figs/sv_genomic_distribution.jpg) 
+![](figs/sv_genomic_distribution.jpg)
 
-The density of SV larger than 20bp in length across the genome (purple) compared to the density of annotated genes (green)
+The density of SV larger than 20bp in length across the genome (purple)
+compared to the density of annotated genes (green)
 :::
 
 ::: {#fig-6}
-![](figs/sv_freq.jpg) 
+![](figs/sv_freq.jpg)
 
-The frequency distribution of the minor allele for SV of different size classes
+The frequency distribution of the minor allele for SV of different size
+classes
 :::
 
 ::: {#fig-7}
@@ -433,10 +506,7 @@ on ADMIXTURE analysis. Shape indicates which of the latitudinal
 transects the individual was sampled from.
 :::
 
-
-
 ## References {.unnumbered}
 
-:::{#refs}
-
+::: {#refs}
 :::
