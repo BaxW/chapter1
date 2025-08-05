@@ -65,56 +65,90 @@ Hybrid Zones</article-title>
 <body>
 <sec id="introduction">
   <title>0.1 Introduction</title>
-  <p>Hybridization between distinct species can lead to the exchange of
-  genetic variation across species boundaries, a process known as
-  introgression. Introgression is a key source of genetic novelty that
-  shapes the evolution of natural systems (<italic>CITE</italic>) and
-  humans (<italic>cite</italic>) and contributes to the development of
-  crop varietals [Gao et al.
-  (<xref alt="2019" rid="ref-gao2019tomato" ref-type="bibr">2019</xref>);
-  Kou et al.
-  (<xref alt="2020" rid="ref-kou2020evolutionary" ref-type="bibr">2020</xref>);
-  Cheng et al.
-  (<xref alt="2019" rid="ref-cheng2019frequent" ref-type="bibr">2019</xref>);
-  Sun et al., 2020; Qiao et al.,2021; Zanini et al., 2021 ]. Admixed
-  individuals, the recipients of intorgressed sequence, present novel
-  combinations of alleles originating from both parental species and
-  serve as tests of the environmental and molecular factors that limit
-  the adaptive exchange of genetic variation between species. Indeed,
-  research on natural admixed populations suggests that introgression
-  can be an adaptive process,through which genetic variation related to
-  locally-adaptive phenotypes is passed from one species to the other
-  [Suarez-Gonzalez, Lexer, and Cronk
-  (<xref alt="2018" rid="ref-suarez2018adaptive" ref-type="bibr">2018</xref>);
-  Leroy et al.
-  (<xref alt="2020" rid="ref-leroy2020adaptive" ref-type="bibr">2020</xref>);
-  Rendón-Anaya et al.
-  (<xref alt="2021" rid="ref-rendon2021adaptive" ref-type="bibr">2021</xref>);
-  Hamilton and Miller
-  (<xref alt="2016" rid="ref-hamilton2016adaptive" ref-type="bibr">2016</xref>);
-  savolainen2007gene; kremer2020oaks] (<italic>CITE MORE THAN JUST
-  TREES</italic>). Closer and more extensive analysis of natural
-  mainfestations of adaptive introgression can reveal the types of
-  genetic variation that are able to adaptively cross species
-  boundaries, the regions of the genome that are receptive to the
-  introduction of foreign sequence and the degree to which environmental
-  context influences the adaptive nature pf introgression. Such research
-  is valuable not only becasue it sheds lights on important questions in
-  evolutionary biology, such as the evolution of species boundaries and
-  molecular basiss of adaptive traits, but also because it gauges the
-  overall potential for the introduction of foreign genetic variation
-  into a novel genetic background, which is a key area of exploration in
-  the field of biotechnology.</p>
+  <p>Hybridization can lead to the exchange of genetic variation across
+  species boundaries, a process known as introgression. Introgression is
+  a powerful source of genetic novelty, playing a significant role in
+  the evolutionary history of natural systems
+  (<xref alt="Hedrick 2013" rid="ref-hedrick2013adaptive" ref-type="bibr">Hedrick
+  2013</xref>;
+  <xref alt="Suarez-Gonzalez, Lexer, and Cronk 2018" rid="ref-suarez2018adaptive" ref-type="bibr">Suarez-Gonzalez,
+  Lexer, and Cronk 2018</xref>), humans
+  (<xref alt="Racimo et al. 2015" rid="ref-racimo2015evidence" ref-type="bibr">Racimo
+  et al. 2015</xref>) and key crop varietals
+  (<xref alt="Burgarella et al. 2019" rid="ref-burgarella2019adaptive" ref-type="bibr">Burgarella
+  et al. 2019</xref>;
+  <xref alt="Gao et al. 2019" rid="ref-gao2019tomato" ref-type="bibr">Gao
+  et al. 2019</xref>;
+  <xref alt="Kou et al. 2020" rid="ref-kou2020evolutionary" ref-type="bibr">Kou
+  et al. 2020</xref>;
+  <xref alt="Cheng et al. 2019" rid="ref-cheng2019frequent" ref-type="bibr">Cheng
+  et al. 2019</xref>;
+  <xref alt="Sun et al. 2020" rid="ref-sun2020phased" ref-type="bibr">Sun
+  et al. 2020</xref>;
+  <xref alt="Qiao et al. 2021" rid="ref-qiao2021evolutionary" ref-type="bibr">Qiao
+  et al. 2021</xref>;
+  <xref alt="Zanini et al. 2022" rid="ref-zanini2022pangenomics" ref-type="bibr">Zanini
+  et al. 2022</xref>). Admixed individuals, the recipients of
+  introgressed sequence, harbor novel combinations of alleles
+  originating from both parental species, and may present phenotypic
+  variation which transcends that observed in the parental species. In
+  this sense, admixed individuals represent unique opportunities, not
+  only to better understand the genetic basis of phenotype, but also to
+  better understand the nature of molecular interactions between
+  divergent haplotypes. Furthermore, when parental species inhabit
+  differing environments, patterns of introgression may also reflect the
+  interaction between genetic variation and environment. Ultimately,
+  these GxG and GxE interactions define the contexts in which
+  introgression is adaptive. Past research on natural admixed
+  populations suggests that introgression can be an adaptive process,
+  through which genetic variation related to locally-adaptive phenotypes
+  is passed from one species to another
+  (<xref alt="Hedrick 2013" rid="ref-hedrick2013adaptive" ref-type="bibr">Hedrick
+  2013</xref>;
+  <xref alt="Suarez-Gonzalez, Lexer, and Cronk 2018" rid="ref-suarez2018adaptive" ref-type="bibr">Suarez-Gonzalez,
+  Lexer, and Cronk 2018</xref>;
+  <xref alt="Leroy et al. 2020" rid="ref-leroy2020adaptive" ref-type="bibr">Leroy
+  et al. 2020</xref>;
+  <xref alt="Rendón-Anaya et al. 2021" rid="ref-rendon2021adaptive" ref-type="bibr">Rendón-Anaya
+  et al. 2021</xref>;
+  <xref alt="Hamilton and Miller 2016" rid="ref-hamilton2016adaptive" ref-type="bibr">Hamilton
+  and Miller 2016</xref>;
+  <xref alt="Savolainen, Pyhäjärvi, and Knürr 2007" rid="ref-savolainen2007gene" ref-type="bibr">Savolainen,
+  Pyhäjärvi, and Knürr 2007</xref>;
+  <xref alt="Kremer and Hipp 2020" rid="ref-kremer2020oaks" ref-type="bibr">Kremer
+  and Hipp 2020</xref>;
+  <xref alt="Gaczorek et al. 2024" rid="ref-gaczorek2024widespread" ref-type="bibr">Gaczorek
+  et al. 2024</xref>). Closer and more extensive analysis of natural
+  manifestations of adaptive introgression can reveal the types of
+  genetic variation that are able to cross species boundaries without a
+  fitness consequence, the regions of the genome that are receptive to
+  the introduction of foreign sequence, and the degree to which
+  environmental context influences the adaptive nature of introgression.
+  Research in this area is valuable not only because it sheds light on
+  important questions in evolutionary biology, such as the evolution of
+  species boundaries and molecular basis of adaptive traits, but also
+  because it gauges the overall potential for the introduction of
+  divergent genetic variation into novel genetic and environmental
+  background. Therefore, research in this area has great potential for
+  broader impact for two main reasons. First, because the contribution
+  of biotechnology to advances in the fields of medicine and agriculture
+  increasingly depend on the introduction of genetic sequence into a
+  novel background. Second, because introgression provides a potentially
+  faster and more reliable route for the adaptive evolution of phenotype
+  than de novo mutation, meaning that natural systems and breeding
+  programs alike may depend on introgression in order to facilitate
+  rapid evolution of adaptive traits in response to changing
+  climates.</p>
   <p>The size and molecular origin of the genetic variation that is
   exchanged between species through adaptive introgression is important
   to define, as a growing body of research suggests that genomic
   structural variation (SV), here defined as genetic variation larger
   than 50bp resulting for insertion, deletion, translocation or
-  inversion of genomic sequence is often the causal variation underlying
-  ecologically and economically important traits in many taxa. For
-  instance, SV may play a role in local adaptation to climate, and past
-  research shows divergence between populations for SV genotypes
-  resulting from both local adaptation and neutral population structure
+  inversion of genomic sequence, is often the causal variation
+  underlying ecologically and economically important traits in many taxa
+  (<italic>CITE</italic>). For instance, SV may play a role in local
+  adaptation to climate, and past research shows divergence between
+  populations for SV genotypes resulting from local adaptation
   (<xref alt="Hämälä et al. 2021" rid="ref-hamala2021genomic" ref-type="bibr">Hämälä
   et al. 2021</xref>;
   <xref alt="Songsomboon et al. 2021" rid="ref-songsomboon2021genomic" ref-type="bibr">Songsomboon
@@ -124,22 +158,28 @@ Hybrid Zones</article-title>
   <xref alt="Z. Li et al. 2023" rid="ref-li2023pig" ref-type="bibr">Z.
   Li et al. 2023</xref>). At a broader scale, research also shows that
   SV maintain genetic differentiation between species
-  ((<xref alt="L. Zhang et al. 2021" rid="ref-zhang2021important" ref-type="bibr">L.
-  Zhang et al. 2021</xref>). However, less is known about the adaptive
+  (<xref alt="L. Zhang et al. 2021" rid="ref-zhang2021important" ref-type="bibr">L.
+  Zhang et al. 2021</xref>;
+  <xref alt="Ferguson et al. 2024" rid="ref-ferguson2024exploring" ref-type="bibr">Ferguson
+  et al. 2024</xref>). However, little is known about the adaptive
   exchange of SV genotypes between divergent populations and species.
-  Introgression between crop varietals and wild relatives has been a key
+  Introgression between crop varietals and wild relatives is a key
   factor in the breeding history of many crops, and recent work shows
-  that SV are often the casual variants involved in this process [Gao et
-  al.
-  (<xref alt="2019" rid="ref-gao2019tomato" ref-type="bibr">2019</xref>);
-  Kou et al.
-  (<xref alt="2020" rid="ref-kou2020evolutionary" ref-type="bibr">2020</xref>);
-  Cheng et al.
-  (<xref alt="2019" rid="ref-cheng2019frequent" ref-type="bibr">2019</xref>);
-  Sun et al., 2020; Qiao et al.,2021; Zanini et al., 2021 ].
-  Introgression is also common in natrual systmes and recent work
-  highlights introgression as an important source of adaptive genetic
-  novelty in many species, particularly forest trees
+  that SV are often the causal variants involved in this process
+  (<xref alt="Gao et al. 2019" rid="ref-gao2019tomato" ref-type="bibr">Gao
+  et al. 2019</xref>;
+  <xref alt="Kou et al. 2020" rid="ref-kou2020evolutionary" ref-type="bibr">Kou
+  et al. 2020</xref>;
+  <xref alt="Cheng et al. 2019" rid="ref-cheng2019frequent" ref-type="bibr">Cheng
+  et al. 2019</xref>;
+  <xref alt="Sun et al. 2020" rid="ref-sun2020phased" ref-type="bibr">Sun
+  et al. 2020</xref>,;
+  <xref alt="Qiao et al. 2021" rid="ref-qiao2021evolutionary" ref-type="bibr">Qiao
+  et al. 2021</xref>;
+  <xref alt="Zanini et al. 2022" rid="ref-zanini2022pangenomics" ref-type="bibr">Zanini
+  et al. 2022</xref>). Introgression is also common in natural systems
+  and recent work highlights introgression as an important source of
+  adaptive genetic novelty in many species, particularly forest trees
   (<xref alt="Suarez-Gonzalez, Lexer, and Cronk 2018" rid="ref-suarez2018adaptive" ref-type="bibr">Suarez-Gonzalez,
   Lexer, and Cronk 2018</xref>;
   <xref alt="Leroy et al. 2020" rid="ref-leroy2020adaptive" ref-type="bibr">Leroy
@@ -150,11 +190,11 @@ Hybrid Zones</article-title>
   and Miller 2016</xref>). However, past work on the genetics of such
   adaptive introgression in natural systems focused primarily on SNP
   genotypes. While hybrid genomes may be porous to variation at the
-  singl -nucleotide scale, and introgressed SNP alleles may even present
+  single nucleotide scale, and introgressed SNP alleles may even present
   an adaptive advantage in admixed individuals, it remains unclear if
-  the same true for SV genotypes, which have greater potential for
-  delterious phenotypic effects. Recently, research has highlighted a
-  potential role for SV in adaptive intorgression. This work suggests
+  the same is true for SV genotypes, which have greater potential for
+  deleterious phenotypic effects. Recently, research has highlighted a
+  potential role for SV in adaptive introgression. This work suggests
   that SV may play an important role in both adaptive introgression
   (<xref alt="Almarri et al. 2020" rid="ref-almarri2020population" ref-type="bibr">Almarri
   et al. 2020</xref>;
@@ -166,91 +206,34 @@ Hybrid Zones</article-title>
   Zhang et al. 2021</xref>). If SV is indeed involved in adaptive
   introgression, it is worth investigating the molecular nature (eg
   size, frequency, variant class, genomic location) of the SV alleles
-  involved, as well as the consistency and directionality of
-  intrgression involving SV. Admixed individuals may present mosaics of
-  SV alleles derived from both parental sepecies, or introgression may
-  be directionally biased. Similarly, natural hybrid zones may be
-  hotspots for the generation of novel SV alleles through processes such
-  as unequal crossing over. Here, we leverage extensive sampling of
-  natural forest tree hybrid zones, cutting edge techniques for
-  genotyping SV in admixed individuals and established landscape
-  genomics analyses to investigate these areas of uncertainty.</p>
-  <p>****CHOP*** Hybridization between distinct species can lead to the
-  exchange of genetic variation across species boundaries, a process
-  known as introgression. Introgression is common among inter-fertile
-  species of forest trees, and in many cases, is hypothesized to be an
-  adaptive process, through which genetic variation related to
-  locally-adaptive phenotypes is passed from one species to the other
-  (<xref alt="Suarez-Gonzalez, Lexer, and Cronk 2018" rid="ref-suarez2018adaptive" ref-type="bibr">Suarez-Gonzalez,
-  Lexer, and Cronk 2018</xref>;
-  <xref alt="Leroy et al. 2020" rid="ref-leroy2020adaptive" ref-type="bibr">Leroy
-  et al. 2020</xref>;
-  <xref alt="Rendón-Anaya et al. 2021" rid="ref-rendon2021adaptive" ref-type="bibr">Rendón-Anaya
-  et al. 2021</xref>;
-  <xref alt="Hamilton and Miller 2016" rid="ref-hamilton2016adaptive" ref-type="bibr">Hamilton
-  and Miller 2016</xref>) Support for this hypothesis requires a clearer
-  understanding of the nature of genetic variation that is exchanged
-  between species, and the degree to which this variation is involved in
-  adaptive processes in natural populations. Characterization of the
-  genetic variation involved in adaptive introgression would shed light
-  on the evolutionary forces that influence the content of admixed
-  genomes and help reveal the loci that underlie both the adaptive
-  traits and genetic incompatibilities that shape species
-  boundaries.</p>
-  <p>****CHOP*** The majority of past research on adaptive introgression
-  has focused on single nucleotide polymorphisms (SNPs) and small
-  indels, but structural variation (SV) is also likely to play a role in
-  adaptive introgression. SV, which includes deletions, duplications,
-  inversions, and translocations of DNA segments, can have a significant
-  impact on gene expression, gene function, and ultimately, adaptive
-  phenotypic variation. For this reason, SV is known to be a major
-  source of genetic variation in many species, and has been implicated
-  in the evolution of adaptive traits in a variety of taxa
-  (<xref alt="Hämälä et al. 2021" rid="ref-hamala2021genomic" ref-type="bibr">Hämälä
-  et al. 2021</xref>;
-  <xref alt="Songsomboon et al. 2021" rid="ref-songsomboon2021genomic" ref-type="bibr">Songsomboon
-  et al. 2021</xref>;
-  <xref alt="Y. Li et al. 2024" rid="ref-li2024pan" ref-type="bibr">Y.
-  Li et al. 2024</xref>;
-  <xref alt="Z. Li et al. 2023" rid="ref-li2023pig" ref-type="bibr">Z.
-  Li et al. 2023</xref>). As the notion that SV is involved in adaptive
-  evolution gains support, it is only logical to ask is how SV is
-  involved in adaptive introgression. Recent research suggests that SV
-  may play an important role in both adaptive introgression
-  (<xref alt="Almarri et al. 2020" rid="ref-almarri2020population" ref-type="bibr">Almarri
-  et al. 2020</xref>;
-  <xref alt="Xia et al. 2023" rid="ref-xia2023structural" ref-type="bibr">Xia
-  et al. 2023</xref>;
-  <xref alt="X. Zhang et al. 2021" rid="ref-zhang2021pan" ref-type="bibr">X.
-  Zhang et al. 2021</xref>) and in the maintenance of species boundaries
-  (<xref alt="L. Zhang et al. 2021" rid="ref-zhang2021important" ref-type="bibr">L.
-  Zhang et al. 2021</xref>) in natural systems. Introgression between
-  crop varietals and wild relatives has been a key factor in the
-  breeding history of many crops, and recent work shows that SV are
-  often the casual variants involved in this process [Gao et al.
-  (<xref alt="2019" rid="ref-gao2019tomato" ref-type="bibr">2019</xref>);
-  Kou et al.
-  (<xref alt="2020" rid="ref-kou2020evolutionary" ref-type="bibr">2020</xref>);
-  Cheng et al.
-  (<xref alt="2019" rid="ref-cheng2019frequent" ref-type="bibr">2019</xref>);
-  Sun et al., 2020; Qiao et al., 2021; Zanini et al., 2021 ]. While the
-  significant effect of introgressed SV on economically important crop
-  traits is well recognized, far less in known about the relationship
-  between introgression, SV and ecologically important traits in natural
-  hybrid zones.</p>
+  involved, as well as the consistency and directionality of adaptive
+  introgression involving SV. Admixed individuals may present mosaics of
+  SV alleles derived from both parental species, or introgression may be
+  directionally biased toward one species. Similarly, some loci may act
+  as barriers to introgression, while others are more receptive. Natural
+  hybrid zones may be hotspots for the de novo generation of SV alleles
+  through processes such as unequal crossing over. Here, we leverage
+  extensive sampling of natural forest tree hybrid zones, cutting edge
+  techniques for genotyping SV in admixed individuals and established
+  landscape genomics analyses to investigate these areas of
+  uncertainty.</p>
   <p>The study of SV in natural hybrid zones is challenging, as it
   requires the ability to accurately genotype SV in a large number of
   admixed individuals. The majority of past research on SV in natural
   hybrid zones has relied on the use of reference genomes derived from a
   single individual from only one of the parental species, which can
-  lead to reference bias [Bock et al.
-  (<xref alt="2023" rid="ref-bock2023genomics" ref-type="bibr">2023</xref>);
-  song2023plant; feng2024integrating]. Reference bias occurs when the
-  genomes of re sequenced individuals contain regions that are highly
-  diverged from the reference genome sequence, causing reads originating
-  from these regions to align incorrectly, or not align at all. This can
-  lead to misinterpretation or under-representation of variation
-  resulting from admixture
+  lead to reference bias
+  (<xref alt="Bock et al. 2023" rid="ref-bock2023genomics" ref-type="bibr">Bock
+  et al. 2023</xref>;
+  <xref alt="Song et al. 2023" rid="ref-song2023plant" ref-type="bibr">Song
+  et al. 2023</xref>;
+  <xref alt="Feng et al. 2024" rid="ref-feng2024integrating" ref-type="bibr">Feng
+  et al. 2024</xref>). Reference bias occurs when the genomes of
+  resequenced individuals contain regions that are highly diverged from
+  the reference genome sequence, causing reads originating from these
+  regions to align incorrectly, or not align at all. This can lead to
+  misinterpretation or under-representation of variation resulting from
+  admixture
   (<xref alt="Secomandi et al. 2025" rid="ref-secomandi2025pangenome" ref-type="bibr">Secomandi
   et al. 2025</xref>). Reference bias is particularly problematic when
   studying SV, as large insertions and deletions may be longer than
@@ -299,81 +282,103 @@ Hybrid Zones</article-title>
   et al. 2023</xref>). Pan-genome assembly could help overcome the
   challenges of studying SV in admixed tree populations, and could
   provide new insights into the role of SV in adaptive introgression in
-  natural populations of forest trees [secomandi2025pangenome]. Despite
-  this potentail, we know of only one study that used pan-genome
-  assembly to examine introgression in the context of forest tree hybrid
-  zones. Liang et al. (2025) use a pan-genome based approach to genotype
-  SV in a range-wide sampling of the interfertile oak species
-  <italic>Quercus variabilis</italic> and <italic>Q.
-  acutissima</italic>, showing that SV show signals of adaptive
-  intorgression that differs from that detected from SNP data and
-  identifying adaptive intorgression of SV genotyps in a gene rich
+  natural populations of forest trees
+  (<xref alt="Secomandi et al. 2025" rid="ref-secomandi2025pangenome" ref-type="bibr">Secomandi
+  et al. 2025</xref>). Despite this potential, we know of only one study
+  that used pan-genome assembly to examine introgression in the context
+  of hybridization in the wild. Liang et al. (2025) use a pan-genome
+  based approach to genotype SV in a range-wide sampling of the
+  interfertile oak species <italic>Quercus variabilis</italic> and
+  <italic>Q. acutissima</italic>, showing that SV harbor signals of
+  adaptive introgression that differ from those detected from SNP data
+  and identifying adaptive introgression of SV genotypes in a gene rich
   region of oak chromosome 9
   (<xref alt="Liang et al. 2025" rid="ref-liang2025" ref-type="bibr">Liang
-  et al. 2025</xref>). Here, we add to this naicent line of research by
-  exploring the relationship between structural variation and
+  et al. 2025</xref>). In light of this work, it is worth investigating
+  if signatures adaptive introgression on SV exist in other interfertile
+  tree species and asking not only how this adaptive signal is
+  distributed across the whole genome but also how it varies with
+  environmental context across the range of hybridizing species. Here,
+  we add to this nascent line of research by leveraging pan-genome
+  assembly and fine-scale sampling of natural hybrid zones to explore
+  genome-wide relationship between structural variation and
   introgression between <italic>Populus balsamifera</italic> and
   <italic>Populus trichocarpa</italic>, two forest tree species that
   diverged much more recently than the oak species studied by Liang et
-  al. (2025). We leverage a larger sample size and finer geographic
-  scale to study the role of SV in local adaptation and adaptive
-  introgression across repeated hybrid zones.</p>
+  al. (2025).</p>
   <p><italic>Populus balsamifera</italic> and <italic>Populus
-  trichocarpa</italic> are two species of forest tree that readily
-  interbreed in nature, and early and advanced generation hybrids have
-  been described in hybrid zones located where their ranges overlap
-  (Geraldes et al., 2014; Suarez-Gonzalez et al.,2016; 2018; Chhatre et
-  al. 2019). It has previously been hypothesized that hybridization
-  between these two species contributes to an adaptive process,
-  facilitating introgression of genetic variation related to
+  trichocarpa</italic> readily interbreed in nature, and early and
+  advanced generation hybrids have been described in hybrid zones
+  located where their ranges overlap
+  (<xref alt="Geraldes et al. 2014" rid="ref-geraldes2014landscape" ref-type="bibr">Geraldes
+  et al. 2014</xref>;
+  <xref alt="Suarez-Gonzalez et al. 2016" rid="ref-suarez2016" ref-type="bibr">Suarez-Gonzalez
+  et al. 2016</xref>,
+  <xref alt="2018" rid="ref-suarez2018a" ref-type="bibr">2018</xref>;
+  <xref alt="Chhatre et al. 2018" rid="ref-chhatre2018adaptive" ref-type="bibr">Chhatre
+  et al. 2018</xref>). It is thought that hybridization between these
+  two species facilitates introgression of genetic variation related to
   locally-adaptive phenotypes from one species to the other
-  (Suarez-Gonzalez et al., 2016; Suarez-Gonzalez et al., 2018). However,
-  studies on controlled inter-specific crosses in
+  (<xref alt="Suarez-Gonzalez et al. 2016" rid="ref-suarez2016" ref-type="bibr">Suarez-Gonzalez
+  et al. 2016</xref>,
+  <xref alt="2018" rid="ref-suarez2018a" ref-type="bibr">2018</xref>).
+  However, studies on controlled inter-specific crosses in
   <italic>Populus</italic> have made it clear that introgression is
   often biased toward particular regions of the genome, particular
-  <italic>Populus</italic> species, or specific environments (Lexer et
-  al., 2005; Thompson et al., 2010; Meirmans et al., 2017). Therefore,
-  the porosity of the genome to adaptive introgression between
-  hybridizing species may be constrained by incompatibilities between
-  the genomic variants involved as well as environmental context, two
-  factors which warrant further investigation. The environmental context
-  of adaptive introgression may be of particular importance in the case
-  of <italic>P. balsamifera</italic> and <italic>P.
-  trichocarpa</italic>. <italic>P. balsamifera</italic> is more commonly
-  found in colder, continental climates while <italic>P.
-  trichocarpa</italic> is more often associated with milder, coastal
-  climates with longer growing seasons (Geraldes et al., 2014;
-  Suarez-Gonzalez et al., 2018). Considering hybrid zones between these
-  species often fall along the boundaries of their ranges (Chhatre et
-  al., 2019; Fetter and Keller, 2023), it seems possible that adaptive
-  introgression helps hybrid individuals persist in environments that
-  are outside of the optimum for either parental species.
-  Suarez-Gonzalez et al. (2018) showed support for this hypothesis,
-  finding that introgressed regions in the genomes of hybrids harbored
-  signs of selection and variation associated with adaptive traits,
-  including phenology. However, the specific adaptive variants within
-  these genomic regions, and the nature of their effects on fitness
-  remain, for the most part, undiscovered. Identification of SV involved
-  in adaptive introgression between these two species would not only
-  contirbute to a broader undersatanidng of the molecular basis of
-  adaptive introgression, but would also provide helpful insight into
-  the conservation of these ecologically important species. In trees,
-  long generations times are thought to limit the potential contribution
-  of de novo mutation to adaptive evolution in response to rapid
-  environmental change
+  <italic>Populus</italic> species, or specific environments
+  (<xref alt="Lexer et al. 2005" rid="ref-lexer2005barrier" ref-type="bibr">Lexer
+  et al. 2005</xref>;
+  <xref alt="Thompson et al. 2010" rid="ref-thompson2010repeated" ref-type="bibr">Thompson
+  et al. 2010</xref>;
+  <xref alt="Meirmans et al. 2017" rid="ref-meirmans2017history" ref-type="bibr">Meirmans
+  et al. 2017</xref>). Therefore, the porosity of the genome to adaptive
+  introgression between these species may be constrained by
+  incompatibilities between the genomic variants involved as well as
+  environmental context, two factors which warrant further
+  investigation. The environmental context of adaptive introgression may
+  be of particular importance in the case of <italic>P.
+  balsamifera</italic> and <italic>P. trichocarpa</italic>. <italic>P.
+  balsamifera</italic> is more commonly found in colder, continental
+  climates while <italic>P. trichocarpa</italic> is more often
+  associated with milder, coastal climates with longer growing seasons
+  (<xref alt="Geraldes et al. 2014" rid="ref-geraldes2014landscape" ref-type="bibr">Geraldes
+  et al. 2014</xref>;
+  <xref alt="Suarez-Gonzalez et al. 2018" rid="ref-suarez2018a" ref-type="bibr">Suarez-Gonzalez
+  et al. 2018</xref>). Considering hybrid zones between these species
+  often fall along the boundaries of their ranges (Chhatre et al.
+  (<xref alt="2018" rid="ref-chhatre2018adaptive" ref-type="bibr">2018</xref>);
+  Fetter and Keller
+  (<xref alt="2023" rid="ref-fetter2023admixture" ref-type="bibr">2023</xref>)),
+  it seems possible that adaptive introgression helps hybrid individuals
+  persist in environments that are outside of the optimum for either
+  parental species. Suarez-Gonzalez et al.
+  (<xref alt="2018" rid="ref-suarez2018a" ref-type="bibr">2018</xref>)
+  showed support for this hypothesis, finding that introgressed regions
+  in the genomes of hybrids harbored signs of selection and variation
+  associated with adaptive traits, including phenology. However, the
+  specific adaptive variants within these genomic regions, and the
+  nature of their effects on fitness remain, for the most part,
+  undiscovered. Identification of SV involved in adaptive introgression
+  between these two species would not only contribute to a broader
+  understanding of the molecular basis of adaptive introgression, but
+  would also provide helpful insight into the conservation of these
+  ecologically important species. In trees, long generations times are
+  thought to limit the potential contribution of de novo mutation to
+  adaptive evolution in response to rapid environmental change
   (<xref alt="Savolainen, Pyhäjärvi, and Knürr 2007" rid="ref-savolainen2007gene" ref-type="bibr">Savolainen,
   Pyhäjärvi, and Knürr 2007</xref>;
   <xref alt="Feng et al. 2024" rid="ref-feng2024integrating" ref-type="bibr">Feng
-  et al. 2024</xref>). Therefore, adaptive intorgression is viewed as
-  one of the few routs for trees to undergo rapid evolutionin repsonse
-  top cliamte change
+  et al. 2024</xref>). Therefore, adaptive introgression is viewed as
+  one of the few routs for speicies like <italic>P. balsamifera</italic>
+  and <italic>P. trichocarpa</italic> to adaptively evolve in response
+  to climate change
   (<xref alt="Feng et al. 2024" rid="ref-feng2024integrating" ref-type="bibr">Feng
   et al. 2024</xref>). If adaptive introgression does help admixed
-  individiuals persist in environments oitside of their optimum, then
-  the varaition involved could guide geneic conservation efforts, such
-  as assisted gene flow. Furthermore, industrial breeding of
+  individuals persist in environments outside of their optimum, then the
+  variation involved could guide genetic conservation efforts, such as
+  assisted gene flow. Furthermore, industrial breeding of
   <italic>Populus</italic> varietals generally involves interspecific
-  corsses, and breeding programs would benefit from a clearer
+  crosses, and breeding programs would benefit from a clearer
   understanding of the genetic variation that is involved in adaptive
   introgression between these two species.</p>
   <p>Here, we take advantage of recent advances in pan-genome assembly
@@ -1678,6 +1683,22 @@ Hybrid Zones</article-title>
           <lpage>619</lpage>
         </element-citation>
       </ref>
+      <ref id="ref-kremer2020oaks">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Kremer</surname><given-names>Antoine</given-names></name>
+            <name><surname>Hipp</surname><given-names>Andrew L</given-names></name>
+          </person-group>
+          <article-title>Oaks: An evolutionary success story</article-title>
+          <source>New Phytologist</source>
+          <publisher-name>Wiley Online Library</publisher-name>
+          <year iso-8601-date="2020">2020</year>
+          <volume>226</volume>
+          <issue>4</issue>
+          <fpage>987</fpage>
+          <lpage>1011</lpage>
+        </element-citation>
+      </ref>
       <ref id="ref-bock2023genomics">
         <element-citation publication-type="article-journal">
           <person-group person-group-type="author">
@@ -1698,6 +1719,29 @@ Hybrid Zones</article-title>
           <year iso-8601-date="2023">2023</year>
           <volume>4</volume>
           <issue>5</issue>
+        </element-citation>
+      </ref>
+      <ref id="ref-song2023plant">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Song</surname><given-names>Bo</given-names></name>
+            <name><surname>Ning</surname><given-names>Weidong</given-names></name>
+            <name><surname>Wei</surname><given-names>Di</given-names></name>
+            <name><surname>Jiang</surname><given-names>Mengyun</given-names></name>
+            <name><surname>Zhu</surname><given-names>Kun</given-names></name>
+            <name><surname>Wang</surname><given-names>Xingwei</given-names></name>
+            <name><surname>Edwards</surname><given-names>David</given-names></name>
+            <name><surname>Odeny</surname><given-names>Damaris A</given-names></name>
+            <name><surname>Cheng</surname><given-names>Shifeng</given-names></name>
+          </person-group>
+          <article-title>Plant genome resequencing and population genomics: Current status and future prospects</article-title>
+          <source>Molecular Plant</source>
+          <publisher-name>Elsevier</publisher-name>
+          <year iso-8601-date="2023">2023</year>
+          <volume>16</volume>
+          <issue>8</issue>
+          <fpage>1252</fpage>
+          <lpage>1268</lpage>
         </element-citation>
       </ref>
       <ref id="ref-feng2024integrating">
@@ -1742,6 +1786,331 @@ Hybrid Zones</article-title>
           <volume>14</volume>
           <issue>1</issue>
           <fpage>6259</fpage>
+          <lpage></lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-sun2020phased">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Sun</surname><given-names>Xuepeng</given-names></name>
+            <name><surname>Jiao</surname><given-names>Chen</given-names></name>
+            <name><surname>Schwaninger</surname><given-names>Heidi</given-names></name>
+            <name><surname>Chao</surname><given-names>C Thomas</given-names></name>
+            <name><surname>Ma</surname><given-names>Yumin</given-names></name>
+            <name><surname>Duan</surname><given-names>Naibin</given-names></name>
+            <name><surname>Khan</surname><given-names>Awais</given-names></name>
+            <name><surname>Ban</surname><given-names>Seunghyun</given-names></name>
+            <name><surname>Xu</surname><given-names>Kenong</given-names></name>
+            <name><surname>Cheng</surname><given-names>Lailiang</given-names></name>
+            <etal/>
+          </person-group>
+          <article-title>Phased diploid genome assemblies and pan-genomes provide insights into the genetic history of apple domestication</article-title>
+          <source>Nature genetics</source>
+          <publisher-name>Nature Publishing Group US New York</publisher-name>
+          <year iso-8601-date="2020">2020</year>
+          <volume>52</volume>
+          <issue>12</issue>
+          <fpage>1423</fpage>
+          <lpage>1432</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-qiao2021evolutionary">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Qiao</surname><given-names>Qin</given-names></name>
+            <name><surname>Edger</surname><given-names>Patrick P</given-names></name>
+            <name><surname>Xue</surname><given-names>Li</given-names></name>
+            <name><surname>Qiong</surname><given-names>La</given-names></name>
+            <name><surname>Lu</surname><given-names>Jie</given-names></name>
+            <name><surname>Zhang</surname><given-names>Yichen</given-names></name>
+            <name><surname>Cao</surname><given-names>Qiang</given-names></name>
+            <name><surname>Yocca</surname><given-names>Alan E</given-names></name>
+            <name><surname>Platts</surname><given-names>Adrian E</given-names></name>
+            <name><surname>Knapp</surname><given-names>Steven J</given-names></name>
+            <etal/>
+          </person-group>
+          <article-title>Evolutionary history and pan-genome dynamics of strawberry (fragaria spp.)</article-title>
+          <source>Proceedings of the National Academy of Sciences</source>
+          <publisher-name>National Academy of Sciences</publisher-name>
+          <year iso-8601-date="2021">2021</year>
+          <volume>118</volume>
+          <issue>45</issue>
+          <fpage>e2105431118</fpage>
+          <lpage></lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-zanini2022pangenomics">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Zanini</surname><given-names>Silvia F</given-names></name>
+            <name><surname>Bayer</surname><given-names>Philipp E</given-names></name>
+            <name><surname>Wells</surname><given-names>Rachel</given-names></name>
+            <name><surname>Snowdon</surname><given-names>Rod J</given-names></name>
+            <name><surname>Batley</surname><given-names>Jacqueline</given-names></name>
+            <name><surname>Varshney</surname><given-names>Rajeev K</given-names></name>
+            <name><surname>Nguyen</surname><given-names>Henry T</given-names></name>
+            <name><surname>Edwards</surname><given-names>David</given-names></name>
+            <name><surname>Golicz</surname><given-names>Agnieszka A</given-names></name>
+          </person-group>
+          <article-title>Pangenomics in crop improvement—from coding structural variations to finding regulatory variants with pangenome graphs</article-title>
+          <source>The plant genome</source>
+          <publisher-name>Wiley Online Library</publisher-name>
+          <year iso-8601-date="2022">2022</year>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>e20177</fpage>
+          <lpage></lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-geraldes2014landscape">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Geraldes</surname><given-names>Armando</given-names></name>
+            <name><surname>Farzaneh</surname><given-names>Nima</given-names></name>
+            <name><surname>Grassa</surname><given-names>Christopher J</given-names></name>
+            <name><surname>McKown</surname><given-names>Athena D</given-names></name>
+            <name><surname>Guy</surname><given-names>Robert D</given-names></name>
+            <name><surname>Mansfield</surname><given-names>Shawn D</given-names></name>
+            <name><surname>Douglas</surname><given-names>Carl J</given-names></name>
+            <name><surname>Cronk</surname><given-names>Quentin CB</given-names></name>
+          </person-group>
+          <article-title>Landscape genomics of populus trichocarpa: The role of hybridization, limited gene flow, and natural selection in shaping patterns of population structure</article-title>
+          <source>Evolution</source>
+          <publisher-name>Blackwell Publishing Inc Malden, USA</publisher-name>
+          <year iso-8601-date="2014">2014</year>
+          <volume>68</volume>
+          <issue>11</issue>
+          <fpage>3260</fpage>
+          <lpage>3280</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-suarez2016">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Suarez-Gonzalez</surname><given-names>Adriana</given-names></name>
+            <name><surname>Hefer</surname><given-names>Charles A</given-names></name>
+            <name><surname>Christe</surname><given-names>Camille</given-names></name>
+            <name><surname>Corea</surname><given-names>Oliver</given-names></name>
+            <name><surname>Lexer</surname><given-names>Christian</given-names></name>
+            <name><surname>Cronk</surname><given-names>Quentin CB</given-names></name>
+            <name><surname>Douglas</surname><given-names>Carl J</given-names></name>
+          </person-group>
+          <article-title>Genomic and functional approaches reveal a case of adaptive introgression from populus balsamifera (balsam poplar) in p. átrichocarpa (black cottonwood)</article-title>
+          <source>Molecular ecology</source>
+          <publisher-name>Wiley Online Library</publisher-name>
+          <year iso-8601-date="2016">2016</year>
+          <volume>25</volume>
+          <issue>11</issue>
+          <fpage>2427</fpage>
+          <lpage>2442</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-suarez2018a">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Suarez-Gonzalez</surname><given-names>Adriana</given-names></name>
+            <name><surname>Hefer</surname><given-names>Charles A</given-names></name>
+            <name><surname>Lexer</surname><given-names>Christian</given-names></name>
+            <name><surname>Douglas</surname><given-names>Carl J</given-names></name>
+            <name><surname>Cronk</surname><given-names>Quentin CB</given-names></name>
+          </person-group>
+          <article-title>Introgression from populus balsamifera underlies adaptively significant variation and range boundaries in p. trichocarpa</article-title>
+          <source>New Phytologist</source>
+          <publisher-name>Wiley Online Library</publisher-name>
+          <year iso-8601-date="2018">2018</year>
+          <volume>217</volume>
+          <issue>1</issue>
+          <fpage>416</fpage>
+          <lpage>427</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-chhatre2018adaptive">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Chhatre</surname><given-names>Vikram E</given-names></name>
+            <name><surname>Evans</surname><given-names>Luke M</given-names></name>
+            <name><surname>DiFazio</surname><given-names>Stephen P</given-names></name>
+            <name><surname>Keller</surname><given-names>Stephen R</given-names></name>
+          </person-group>
+          <article-title>Adaptive introgression and maintenance of a trispecies hybrid complex in range-edge populations of populus</article-title>
+          <source>Molecular ecology</source>
+          <publisher-name>Wiley Online Library</publisher-name>
+          <year iso-8601-date="2018">2018</year>
+          <volume>27</volume>
+          <issue>23</issue>
+          <fpage>4820</fpage>
+          <lpage>4838</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-lexer2005barrier">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Lexer</surname><given-names>C</given-names></name>
+            <name><surname>Fay</surname><given-names>MF</given-names></name>
+            <name><surname>Joseph</surname><given-names>JA</given-names></name>
+            <name><surname>Nica</surname><given-names>M-S</given-names></name>
+            <name><surname>Heinze</surname><given-names>B</given-names></name>
+          </person-group>
+          <article-title>Barrier to gene flow between two ecologically divergent populus species, p. Alba (white poplar) and p. Tremula (european aspen): The role of ecology and life history in gene introgression</article-title>
+          <source>Molecular ecology</source>
+          <publisher-name>Wiley Online Library</publisher-name>
+          <year iso-8601-date="2005">2005</year>
+          <volume>14</volume>
+          <issue>4</issue>
+          <fpage>1045</fpage>
+          <lpage>1057</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-thompson2010repeated">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Thompson</surname><given-names>Stacey Lee</given-names></name>
+            <name><surname>Lamothe</surname><given-names>Manuel</given-names></name>
+            <name><surname>Meirmans</surname><given-names>Patrick G</given-names></name>
+            <name><surname>Perinet</surname><given-names>Pierre</given-names></name>
+            <name><surname>Isabel</surname><given-names>Nathalie</given-names></name>
+          </person-group>
+          <article-title>Repeated unidirectional introgression towards populus balsamifera in contact zones of exotic and native poplars</article-title>
+          <source>Molecular Ecology</source>
+          <publisher-name>Wiley Online Library</publisher-name>
+          <year iso-8601-date="2010">2010</year>
+          <volume>19</volume>
+          <issue>1</issue>
+          <fpage>132</fpage>
+          <lpage>145</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-meirmans2017history">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Meirmans</surname><given-names>PG</given-names></name>
+            <name><surname>Godbout</surname><given-names>J</given-names></name>
+            <name><surname>Lamothe</surname><given-names>M</given-names></name>
+            <name><surname>Thompson</surname><given-names>SL</given-names></name>
+            <name><surname>Isabel</surname><given-names>N</given-names></name>
+          </person-group>
+          <article-title>History rather than hybridization determines population structure and adaptation in populus balsamifera</article-title>
+          <source>Journal of Evolutionary Biology</source>
+          <publisher-name>Blackwell Publishing Ltd Oxford, UK</publisher-name>
+          <year iso-8601-date="2017">2017</year>
+          <volume>30</volume>
+          <issue>11</issue>
+          <fpage>2044</fpage>
+          <lpage>2058</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-fetter2023admixture">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Fetter</surname><given-names>Karl C</given-names></name>
+            <name><surname>Keller</surname><given-names>Stephen R</given-names></name>
+          </person-group>
+          <article-title>Admixture mapping and selection scans identify genomic regions associated with stomatal patterning and disease resistance in hybrid poplars</article-title>
+          <source>Ecology and Evolution</source>
+          <publisher-name>Wiley Online Library</publisher-name>
+          <year iso-8601-date="2023">2023</year>
+          <volume>13</volume>
+          <issue>10</issue>
+          <fpage>e10579</fpage>
+          <lpage></lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-hedrick2013adaptive">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Hedrick</surname><given-names>Philip W</given-names></name>
+          </person-group>
+          <article-title>Adaptive introgression in animals: Examples and comparison to new mutation and standing variation as sources of adaptive variation</article-title>
+          <source>Molecular ecology</source>
+          <publisher-name>Wiley Online Library</publisher-name>
+          <year iso-8601-date="2013">2013</year>
+          <volume>22</volume>
+          <issue>18</issue>
+          <fpage>4606</fpage>
+          <lpage>4618</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-racimo2015evidence">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Racimo</surname><given-names>Fernando</given-names></name>
+            <name><surname>Sankararaman</surname><given-names>Sriram</given-names></name>
+            <name><surname>Nielsen</surname><given-names>Rasmus</given-names></name>
+            <name><surname>Huerta-Sánchez</surname><given-names>Emilia</given-names></name>
+          </person-group>
+          <article-title>Evidence for archaic adaptive introgression in humans</article-title>
+          <source>Nature Reviews Genetics</source>
+          <publisher-name>Nature Publishing Group UK London</publisher-name>
+          <year iso-8601-date="2015">2015</year>
+          <volume>16</volume>
+          <issue>6</issue>
+          <fpage>359</fpage>
+          <lpage>371</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-burgarella2019adaptive">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Burgarella</surname><given-names>Concetta</given-names></name>
+            <name><surname>Barnaud</surname><given-names>Adeline</given-names></name>
+            <name><surname>Kane</surname><given-names>Ndjido Ardo</given-names></name>
+            <name><surname>Jankowski</surname><given-names>Frédérique</given-names></name>
+            <name><surname>Scarcelli</surname><given-names>Nora</given-names></name>
+            <name><surname>Billot</surname><given-names>Claire</given-names></name>
+            <name><surname>Vigouroux</surname><given-names>Yves</given-names></name>
+            <name><surname>Berthouly-Salazar</surname><given-names>Cécile</given-names></name>
+          </person-group>
+          <article-title>Adaptive introgression: An untapped evolutionary mechanism for crop adaptation</article-title>
+          <source>Frontiers in Plant Science</source>
+          <publisher-name>Frontiers Media SA</publisher-name>
+          <year iso-8601-date="2019">2019</year>
+          <volume>10</volume>
+          <fpage>4</fpage>
+          <lpage></lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-gaczorek2024widespread">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Gaczorek</surname><given-names>T</given-names></name>
+            <name><surname>Dudek</surname><given-names>K</given-names></name>
+            <name><surname>Fritz</surname><given-names>U</given-names></name>
+            <name><surname>Bahri-Sfar</surname><given-names>L</given-names></name>
+            <name><surname>Baird</surname><given-names>SJE</given-names></name>
+            <name><surname>Bonhomme</surname><given-names>F</given-names></name>
+            <name><surname>Dufresnes</surname><given-names>C</given-names></name>
+            <name><surname>Gvoždı́k</surname><given-names>V</given-names></name>
+            <name><surname>Irwin</surname><given-names>D</given-names></name>
+            <name><surname>Kotlı́k</surname><given-names>P</given-names></name>
+            <etal/>
+          </person-group>
+          <article-title>Widespread adaptive introgression of major histocompatibility complex genes across vertebrate hybrid zones</article-title>
+          <source>Molecular Biology and Evolution</source>
+          <publisher-name>Oxford University Press UK</publisher-name>
+          <year iso-8601-date="2024">2024</year>
+          <volume>41</volume>
+          <issue>10</issue>
+          <fpage>msae201</fpage>
+          <lpage></lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-ferguson2024exploring">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name><surname>Ferguson</surname><given-names>Scott</given-names></name>
+            <name><surname>Jones</surname><given-names>Ashley</given-names></name>
+            <name><surname>Murray</surname><given-names>Kevin</given-names></name>
+            <name><surname>Andrew</surname><given-names>Rose L</given-names></name>
+            <name><surname>Schwessinger</surname><given-names>Benjamin</given-names></name>
+            <name><surname>Bothwell</surname><given-names>Helen</given-names></name>
+            <name><surname>Borevitz</surname><given-names>Justin</given-names></name>
+          </person-group>
+          <article-title>Exploring the role of polymorphic interspecies structural variants in reproductive isolation and adaptive divergence in eucalyptus</article-title>
+          <source>GigaScience</source>
+          <publisher-name>Oxford University Press</publisher-name>
+          <year iso-8601-date="2024">2024</year>
+          <volume>13</volume>
+          <fpage>giae029</fpage>
           <lpage></lpage>
         </element-citation>
       </ref>
